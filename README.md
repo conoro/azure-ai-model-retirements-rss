@@ -5,12 +5,20 @@
 - Scrapes Microsoft's Learn page for Azure OpenAI model retirements:
   https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements
 - Extracts ONLY the **Current models** tables (ignores Fine-tuned and Default) across:
-  Text (Text generation), Audio, Image and video, Embedding.
+  - Text (Text generation)
+  - Audio
+  - Image and video
+  - Embedding
 - Produces a combined CSV with a **Type** column.
 - Persists a local JSON snapshot for change detection between runs.
 - Writes an RSS feed with items for **new rows** or **field changes** (e.g., Retirement date changes).
 
-THIS IS THE RSS FEED URL you want if you just want the info:
+THIS IS THE RSS FEED URL you want if you just want the info: `https://conoro.github.io/azure-ai-model-retirements-rss/rss.xml`
+
+## Using in Slack
+- make sure the built-in RSS app is installed in your workspace
+- add the RSS feed URL to a channel using `/feed add https://conoro.github.io/azure-ai-model-retirements-rss/rss.xml`
+
 
 # These steps only needed if running it yourself
 ## Install
