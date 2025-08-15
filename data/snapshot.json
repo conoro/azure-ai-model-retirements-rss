@@ -1,0 +1,346 @@
+{
+  "Text||codex-mini||2025-05-16": {
+    "Model": "codex-mini",
+    "Version": "2025-05-16",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than June 19, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||computer-use-preview||2025-03-11": {
+    "Model": "computer-use-preview",
+    "Version": "2025-03-11",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than October 10, 2025",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-3.5-turbo-instruct||0914": {
+    "Model": "gpt-3.5-turbo-instruct",
+    "Version": "0914",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 15, 2025",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-35-turbo||0125": {
+    "Model": "gpt-35-turbo",
+    "Version": "0125",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 15, 2025",
+    "Replacement model": "gpt-4.1-mini",
+    "Type": "Text"
+  },
+  "Text||gpt-35-turbo||1106": {
+    "Model": "gpt-35-turbo",
+    "Version": "1106",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 15, 2025",
+    "Replacement model": "gpt-4.1-mini",
+    "Type": "Text"
+  },
+  "Text||gpt-4||turbo-2024-04-09": {
+    "Model": "gpt-4",
+    "Version": "turbo-2024-04-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 15, 2025",
+    "Replacement model": "gpt-4.1",
+    "Type": "Text"
+  },
+  "Text||gpt-4.1||2025-04-14": {
+    "Model": "gpt-4.1",
+    "Version": "2025-04-14",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 11, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-4.1-mini||2025-04-14": {
+    "Model": "gpt-4.1-mini",
+    "Version": "2025-04-14",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 11, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-4.1-nano||2025-04-14": {
+    "Model": "gpt-4.1-nano",
+    "Version": "2025-04-14",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 11, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-4o||2024-05-13": {
+    "Model": "gpt-4o",
+    "Version": "2024-05-13",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 27, 2026",
+    "Replacement model": "gpt-4.1",
+    "Type": "Text"
+  },
+  "Text||gpt-4o||2024-08-06": {
+    "Model": "gpt-4o",
+    "Version": "2024-08-06",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 27, 2026",
+    "Replacement model": "gpt-4.1",
+    "Type": "Text"
+  },
+  "Text||gpt-4o||2024-11-20": {
+    "Model": "gpt-4o",
+    "Version": "2024-11-20",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than March 1, 2026",
+    "Replacement model": "gpt-4.1",
+    "Type": "Text"
+  },
+  "Text||gpt-4o-mini||2024-07-18": {
+    "Model": "gpt-4o-mini",
+    "Version": "2024-07-18",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 27, 2026",
+    "Replacement model": "gpt-4.1-mini",
+    "Type": "Text"
+  },
+  "Text||gpt-5||2025-08-07": {
+    "Model": "gpt-5",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than August 7, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5-chat||2025-08-07": {
+    "Model": "gpt-5-chat",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than November 15, 2025",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5-mini||2025-08-07": {
+    "Model": "gpt-5-mini",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than August 7, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5-nano||2025-08-07": {
+    "Model": "gpt-5-nano",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than August 7, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||model-router||2025-05-19": {
+    "Model": "model-router",
+    "Version": "2025-05-19",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than November 30, 2025",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||model-router||2025-08-07": {
+    "Model": "model-router",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than November 30, 2025",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||o1||2024-12-17": {
+    "Model": "o1",
+    "Version": "2024-12-17",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than July 15, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||o1-mini||2024-09-12": {
+    "Model": "o1-mini",
+    "Version": "2024-09-12",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 27, 2025",
+    "Replacement model": "o4-mini",
+    "Type": "Text"
+  },
+  "Text||o3||2025-04-16": {
+    "Model": "o3",
+    "Version": "2025-04-16",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 11, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||o3-deep-research||2025-06-26": {
+    "Model": "o3-deep-research",
+    "Version": "2025-06-26",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than June 26, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||o3-mini||2025-01-31": {
+    "Model": "o3-mini",
+    "Version": "2025-01-31",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 1, 2026",
+    "Replacement model": "o4-mini",
+    "Type": "Text"
+  },
+  "Text||o3-pro||2025-06-10": {
+    "Model": "o3-pro",
+    "Version": "2025-06-10",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than June 18, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||o4-mini||2025-04-16": {
+    "Model": "o4-mini",
+    "Version": "2025-04-16",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 11, 2026",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Audio||gpt-4o-audio-preview||2024-12-17": {
+    "Model": "gpt-4o-audio-preview",
+    "Version": "2024-12-17",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-mini-realtime-preview||2024-12-17": {
+    "Model": "gpt-4o-mini-realtime-preview",
+    "Version": "2024-12-17",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-mini-transcribe||2025-03-20": {
+    "Model": "gpt-4o-mini-transcribe",
+    "Version": "2025-03-20",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-mini-tts||2025-03-20": {
+    "Model": "gpt-4o-mini-tts",
+    "Version": "2025-03-20",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-realtime-preview||2024-12-17": {
+    "Model": "gpt-4o-realtime-preview",
+    "Version": "2024-12-17",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-realtime-preview||2025-06-03": {
+    "Model": "gpt-4o-realtime-preview",
+    "Version": "2025-06-03",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 1, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-4o-transcribe||2025-03-20": {
+    "Model": "gpt-4o-transcribe",
+    "Version": "2025-03-20",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than September 17, 2025",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||tts||001": {
+    "Model": "tts",
+    "Version": "001",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 1, 2026",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||tts-hd||001": {
+    "Model": "tts-hd",
+    "Version": "001",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 1, 2026",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||whisper||001": {
+    "Model": "whisper",
+    "Version": "001",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than February 1, 2026",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Image and video||dalle-3||3": {
+    "Model": "dalle-3",
+    "Version": "3",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than October 31, 2025",
+    "Replacement model": "",
+    "Type": "Image and video"
+  },
+  "Image and video||gpt-image-1||2025-04-15": {
+    "Model": "gpt-image-1",
+    "Version": "2025-04-15",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than October 31, 2025",
+    "Replacement model": "",
+    "Type": "Image and video"
+  },
+  "Image and video||sora||2025-05-02": {
+    "Model": "sora",
+    "Version": "2025-05-02",
+    "Lifecycle status": "Preview",
+    "Retirement date": "No earlier than October 15, 2025",
+    "Replacement model": "",
+    "Type": "Image and video"
+  },
+  "Embedding||text-embedding-3-large||1": {
+    "Model": "text-embedding-3-large",
+    "Version": "1",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 30, 2026",
+    "Replacement model": "",
+    "Type": "Embedding"
+  },
+  "Embedding||text-embedding-3-small||1": {
+    "Model": "text-embedding-3-small",
+    "Version": "1",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 30, 2026",
+    "Replacement model": "",
+    "Type": "Embedding"
+  },
+  "Embedding||text-embedding-ada-002||1": {
+    "Model": "text-embedding-ada-002",
+    "Version": "1",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 30, 2026",
+    "Replacement model": "text-embedding-3-small or text-embedding-3-large",
+    "Type": "Embedding"
+  },
+  "Embedding||text-embedding-ada-002||2": {
+    "Model": "text-embedding-ada-002",
+    "Version": "2",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "No earlier than April 30, 2026",
+    "Replacement model": "text-embedding-3-small or text-embedding-3-large",
+    "Type": "Embedding"
+  }
+}
