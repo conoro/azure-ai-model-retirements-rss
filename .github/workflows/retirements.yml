@@ -41,6 +41,16 @@ jobs:
         run: |
           uv run scrape_ms_retirements.py
 
+      - name: Publish rss.xml for GitHub Pages
+        run: |
+          mkdir -p docs
+          cp output/rss.xml docs/rss.xml
+          git add docs/rss.xml
+          if [[ -n "$(git status --porcelain docs/rss.xml)" ]]; then
+            git commit -m "chore: publish rss.xml to docs/ for Pages [skip ci]"
+            git push
+          fi
+
       - name: Commit changes (if any)
         run: |
           git config user.name "github-actions[bot]"
