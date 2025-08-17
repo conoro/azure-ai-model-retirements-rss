@@ -286,26 +286,46 @@ def make_tabs_link(type_label: str) -> str:
     tab = TAB_MAP.get(type_label, TAB_MAP.get(type_label.replace(" and video", ""), "text"))
     return f"{MS_URL_BASE}?{urlencode({'tabs': tab})}"
 
+def read_existing_rss_items(rss_path: str) -> List[str]:
+    """Extract existing <item> elements from RSS file to preserve them when no changes occur."""
+    if not os.path.exists(rss_path):
+        return []
+    
+    try:
+        with open(rss_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        
+        # Parse existing items using BeautifulSoup
+        soup = BeautifulSoup(content, "xml")
+        items = soup.find_all("item")
+        
+        # Convert back to XML strings
+        existing_items = []
+        for item in items:
+            # Preserve the original formatting
+            existing_items.append(str(item))
+        
+        return existing_items
+    except Exception:
+        # If parsing fails, return empty list to start fresh
+        return []
+
 def write_rss(changes, out_rss: str) -> None:
     # Simple RSS 2.0
-    now = dt.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc)
     pubdate = now.strftime("%a, %d %b %Y %H:%M:%S +0000")
     channel_title = "Azure OpenAI Current Models – Changes"
     channel_link = MS_URL_BASE
     channel_desc = "RSS feed of changes (new rows or field updates) detected in the 'Current models' tables."
 
     items_xml = []
+    
     if not changes:
-        # No changes this run
-        items_xml.append(f"""
-        <item>
-          <title>No changes detected</title>
-          <link>{channel_link}</link>
-          <guid isPermaLink="false">{now.timestamp()}</guid>
-          <pubDate>{pubdate}</pubDate>
-          <description>No additions or updates detected during this run.</description>
-        </item>""")
+        # No changes this run - preserve existing items, don't add new ones
+        existing_items = read_existing_rss_items(out_rss)
+        items_xml.extend(existing_items)
     else:
+        # Add new change items to the feed
         for ch in changes:
             type_label, model, version = ch["key"]
             link = make_tabs_link(type_label)
@@ -316,16 +336,21 @@ def write_rss(changes, out_rss: str) -> None:
             elif ch["type"] == "update":
                 for field, (a, b) in ch.get("diffs", {}).items():
                     desc_lines.append(f"{field}: '{a}' → '{b}'")
+            elif ch["type"] == "baseline":
+                desc_lines.append("Initial baseline snapshot created.")
             description = "\n".join(desc_lines)
             guid = f"{type_label}|{model}|{version}|{hash(model+version+str(now.timestamp()))}"
-            items_xml.append(f"""
-            <item>
-              <title>{escape_xml(title)}</title>
-              <link>{link}</link>
-              <guid isPermaLink="false">{escape_xml(guid)}</guid>
-              <pubDate>{pubdate}</pubDate>
-              <description>{escape_xml(description)}</description>
-            </item>""")
+            items_xml.append(f"""    <item>
+      <title>{escape_xml(title)}</title>
+      <link>{link}</link>
+      <guid isPermaLink="false">{escape_xml(guid)}</guid>
+      <pubDate>{pubdate}</pubDate>
+      <description>{escape_xml(description)}</description>
+    </item>""")
+        
+        # Also include existing items (new items first, then existing)
+        existing_items = read_existing_rss_items(out_rss)
+        items_xml.extend(existing_items)
 
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -335,7 +360,7 @@ def write_rss(changes, out_rss: str) -> None:
     <description>{escape_xml(channel_desc)}</description>
     <language>en-us</language>
     <pubDate>{pubdate}</pubDate>
-    {''.join(items_xml)}
+{''.join(items_xml)}
   </channel>
 </rss>"""
     with open(out_rss, "w", encoding="utf-8") as f:
