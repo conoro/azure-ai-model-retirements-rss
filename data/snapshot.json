@@ -19,7 +19,7 @@
     "Model": "gpt-3.5-turbo-instruct",
     "Version": "0914",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "No earlier than October 15, 2025",
+    "Retirement date": "No earlier than November 11, 2025",
     "Replacement model": "",
     "Type": "Text"
   },
@@ -27,7 +27,7 @@
     "Model": "gpt-35-turbo",
     "Version": "0125",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "No earlier than October 15, 2025",
+    "Retirement date": "No earlier than November 11, 2025",
     "Replacement model": "gpt-4.1-mini",
     "Type": "Text"
   },
@@ -35,7 +35,7 @@
     "Model": "gpt-35-turbo",
     "Version": "1106",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "No earlier than October 15, 2025",
+    "Retirement date": "No earlier than November 11, 2025",
     "Replacement model": "gpt-4.1-mini",
     "Type": "Text"
   },
@@ -43,7 +43,7 @@
     "Model": "gpt-4",
     "Version": "turbo-2024-04-09",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "No earlier than October 15, 2025",
+    "Retirement date": "No earlier than November 11, 2025",
     "Replacement model": "gpt-4.1",
     "Type": "Text"
   },
