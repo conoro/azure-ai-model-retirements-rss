@@ -163,8 +163,8 @@
     "Model": "o1-mini",
     "Version": "2024-09-12",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "No earlier than October 27, 2025",
-    "Replacement model": "o4-mini",
+    "Retirement date": "November 17, 2025",
+    "Replacement model": "o4-mini or gpt-5-mini",
     "Type": "Text"
   },
   "Text||o3||2025-04-16": {
