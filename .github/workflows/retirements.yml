@@ -34,7 +34,7 @@ jobs:
       
       - name: Create venv & install deps
         run: |
-          uv venv .venv
+          uv venv .venv --clear
           uv pip install -r requirements.txt
 
       - name: Run scraper
