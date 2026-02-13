@@ -5,13 +5,7 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Fri, 13 Feb 2026 08:58:46 +0000</pubDate>
-    <item>
-      <title>Updated fields for [Audio] whisper 001: Deprecation date: 'No earlier than February 28, 2026' → 'No earlier than June 18, 2026'</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=audio</link>
-      <guid isPermaLink="false">Audio|whisper|001|-5091078127436943220</guid>
-      <pubDate>Fri, 13 Feb 2026 08:58:46 +0000</pubDate>
-      <description>Deprecation date: 'No earlier than February 28, 2026' → 'No earlier than June 18, 2026'</description>
-    </item>
+    <pubDate>Fri, 13 Feb 2026 18:10:47 +0000</pubDate>
+
   </channel>
 </rss>
