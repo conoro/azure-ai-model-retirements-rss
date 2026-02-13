@@ -408,7 +408,7 @@
     "Model": "whisper",
     "Version": "001",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "No earlier than February 28, 2026",
+    "Deprecation date": "No earlier than June 18, 2026",
     "Retirement date": "",
     "Replacement model": "",
     "Type": "Audio"
