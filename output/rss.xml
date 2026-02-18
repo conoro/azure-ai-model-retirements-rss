@@ -5,7 +5,13 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Tue, 17 Feb 2026 18:16:57 +0000</pubDate>
-
+    <pubDate>Wed, 18 Feb 2026 06:21:16 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Image and video] dall-e-3 3: Retirement date: '2026-02-18' → '2026-03-04'</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=image</link>
+      <guid isPermaLink="false">Image and video|dall-e-3|3|-3724731236200087676</guid>
+      <pubDate>Wed, 18 Feb 2026 06:21:16 +0000</pubDate>
+      <description>Retirement date: '2026-02-18' → '2026-03-04'</description>
+    </item>
   </channel>
 </rss>
