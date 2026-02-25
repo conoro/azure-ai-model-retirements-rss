@@ -359,6 +359,15 @@
     "Replacement model": "",
     "Type": "Audio"
   },
+  "Audio||gpt-audio-1.5-2026-02-23||2026-02-23": {
+    "Model": "gpt-audio-1.5-2026-02-23",
+    "Version": "2026-02-23",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "n/a",
+    "Retirement date": "No earlier than February 23, 2027",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
   "Audio||gpt-audio-mini||2025-10-06": {
     "Model": "gpt-audio-mini",
     "Version": "2025-10-06",
@@ -374,6 +383,15 @@
     "Lifecycle status": "Generally Available",
     "Deprecation date": "2026-08-28",
     "Retirement date": "2027-02-28",
+    "Replacement model": "",
+    "Type": "Audio"
+  },
+  "Audio||gpt-realtime-1.5-2026-02-23||2026-02-23": {
+    "Model": "gpt-realtime-1.5-2026-02-23",
+    "Version": "2026-02-23",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "n/a",
+    "Retirement date": "No earlier than February 23, 2027",
     "Replacement model": "",
     "Type": "Audio"
   },
