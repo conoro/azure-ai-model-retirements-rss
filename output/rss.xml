@@ -5,7 +5,31 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Tue, 03 Mar 2026 18:12:40 +0000</pubDate>
-
+    <pubDate>Wed, 04 Mar 2026 06:12:00 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Text] gpt-5-chat 2025-08-07: Retirement date: '2026-03-01' → '2026-04-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
+      <guid isPermaLink="false">Text|gpt-5-chat|2025-08-07|-4843116852181784201</guid>
+      <pubDate>Wed, 04 Mar 2026 06:12:00 +0000</pubDate>
+      <description>Retirement date: '2026-03-01' → '2026-04-15'</description>
+    </item>    <item>
+      <title>Updated fields for [Text] gpt-5-chat 2025-10-03: Retirement date: '2026-03-01' → '2026-04-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
+      <guid isPermaLink="false">Text|gpt-5-chat|2025-10-03|5954271914612931596</guid>
+      <pubDate>Wed, 04 Mar 2026 06:12:00 +0000</pubDate>
+      <description>Retirement date: '2026-03-01' → '2026-04-15'</description>
+    </item>    <item>
+      <title>Updated fields for [Image and video] dall-e-3 3: Replacement model: 'gpt-image-1-mini' → 'gpt-image-1.5'</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=image</link>
+      <guid isPermaLink="false">Image and video|dall-e-3|3|-5542653381083306094</guid>
+      <pubDate>Wed, 04 Mar 2026 06:12:00 +0000</pubDate>
+      <description>Replacement model: 'gpt-image-1-mini' → 'gpt-image-1.5'</description>
+    </item>    <item>
+      <title>Updated fields for [Image and video] gpt-image-1 2025-04-15: Replacement model: 'gpt-image-1-mini' → 'gpt-image-1.5'</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=image</link>
+      <guid isPermaLink="false">Image and video|gpt-image-1|2025-04-15|-4595550691954206101</guid>
+      <pubDate>Wed, 04 Mar 2026 06:12:00 +0000</pubDate>
+      <description>Replacement model: 'gpt-image-1-mini' → 'gpt-image-1.5'</description>
+    </item>
   </channel>
 </rss>

@@ -85,7 +85,7 @@
     "Version": "2025-08-07",
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
-    "Retirement date": "2026-03-01",
+    "Retirement date": "2026-04-15",
     "Replacement model": "gpt-5.2-chat",
     "Type": "Text"
   },
@@ -94,7 +94,7 @@
     "Version": "2025-10-03",
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
-    "Retirement date": "2026-03-01",
+    "Retirement date": "2026-04-15",
     "Replacement model": "gpt-5.2-chat",
     "Type": "Text"
   },
@@ -437,7 +437,7 @@
     "Lifecycle status": "Generally Available",
     "Deprecation date": "n/a",
     "Retirement date": "2026-03-04",
-    "Replacement model": "gpt-image-1-mini",
+    "Replacement model": "gpt-image-1.5",
     "Type": "Image and video"
   },
   "Image and video||gpt-image-1||2025-04-15": {
@@ -446,7 +446,7 @@
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
     "Retirement date": "No earlier than 2026-03-31",
-    "Replacement model": "gpt-image-1-mini",
+    "Replacement model": "gpt-image-1.5",
     "Type": "Image and video"
   },
   "Image and video||gpt-image-1-mini||2025-10-06": {
