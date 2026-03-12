@@ -86,7 +86,7 @@
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
     "Retirement date": "2026-04-15",
-    "Replacement model": "gpt-5.2-chat",
+    "Replacement model": "gpt-5.3-chat",
     "Type": "Text"
   },
   "Text||gpt-5-chat||2025-10-03": {
@@ -95,7 +95,7 @@
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
     "Retirement date": "2026-04-15",
-    "Replacement model": "gpt-5.2-chat",
+    "Replacement model": "gpt-5.3-chat",
     "Type": "Text"
   },
   "Text||gpt-5-codex||2025-09-15": {
@@ -185,6 +185,51 @@
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
     "Retirement date": "No earlier than 2026-04-01",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5.2-codex||2026-01-14": {
+    "Model": "gpt-5.2-codex",
+    "Version": "2026-01-14",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-01-14",
+    "Retirement date": "2027-07-14",
+    "Replacement model": "gpt-5.3-codex",
+    "Type": "Text"
+  },
+  "Text||gpt-5.3-chat||2025-12-11": {
+    "Model": "gpt-5.3-chat",
+    "Version": "2025-12-11",
+    "Lifecycle status": "Preview",
+    "Deprecation date": "n/a",
+    "Retirement date": "2026-06-01",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5.3-codex||2026-02-24": {
+    "Model": "gpt-5.3-codex",
+    "Version": "2026-02-24",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-02-25",
+    "Retirement date": "2027-08-25",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5.4||2026-03-05": {
+    "Model": "gpt-5.4",
+    "Version": "2026-03-05",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-03-05",
+    "Retirement date": "2027-09-05",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5.4-pro||2026-03-05": {
+    "Model": "gpt-5.4-pro",
+    "Version": "2026-03-05",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-03-05",
+    "Retirement date": "2027-09-05",
     "Replacement model": "",
     "Type": "Text"
   },
