@@ -404,8 +404,8 @@
     "Replacement model": "",
     "Type": "Audio"
   },
-  "Audio||gpt-audio-1.5-2026-02-23||2026-02-23": {
-    "Model": "gpt-audio-1.5-2026-02-23",
+  "Audio||gpt-audio-1.5||2026-02-23": {
+    "Model": "gpt-audio-1.5",
     "Version": "2026-02-23",
     "Lifecycle status": "Generally Available",
     "Deprecation date": "n/a",
@@ -431,8 +431,8 @@
     "Replacement model": "",
     "Type": "Audio"
   },
-  "Audio||gpt-realtime-1.5-2026-02-23||2026-02-23": {
-    "Model": "gpt-realtime-1.5-2026-02-23",
+  "Audio||gpt-realtime-1.5||2026-02-23": {
+    "Model": "gpt-realtime-1.5",
     "Version": "2026-02-23",
     "Lifecycle status": "Generally Available",
     "Deprecation date": "n/a",
