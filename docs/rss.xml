@@ -5,49 +5,7 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-    <item>
-      <title>Updated fields for [Text] gpt-5-chat 2025-08-07: Replacement model: 'gpt-5.2-chat' → 'gpt-5.3-chat'</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5-chat|2025-08-07|-6975209548874055346</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>Replacement model: 'gpt-5.2-chat' → 'gpt-5.3-chat'</description>
-    </item>    <item>
-      <title>Updated fields for [Text] gpt-5-chat 2025-10-03: Replacement model: 'gpt-5.2-chat' → 'gpt-5.3-chat'</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5-chat|2025-10-03|6164669365348495376</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>Replacement model: 'gpt-5.2-chat' → 'gpt-5.3-chat'</description>
-    </item>    <item>
-      <title>New model listed in Current models: [Text] gpt-5.2-codex 2026-01-14</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5.2-codex|2026-01-14|-871486881126319013</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>New row detected in Current models table.</description>
-    </item>    <item>
-      <title>New model listed in Current models: [Text] gpt-5.3-chat 2025-12-11</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5.3-chat|2025-12-11|3166107587331859244</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>New row detected in Current models table.</description>
-    </item>    <item>
-      <title>New model listed in Current models: [Text] gpt-5.3-codex 2026-02-24</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5.3-codex|2026-02-24|-7723622044959207132</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>New row detected in Current models table.</description>
-    </item>    <item>
-      <title>New model listed in Current models: [Text] gpt-5.4 2026-03-05</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5.4|2026-03-05|-1702495533382660986</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>New row detected in Current models table.</description>
-    </item>    <item>
-      <title>New model listed in Current models: [Text] gpt-5.4-pro 2026-03-05</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=text</link>
-      <guid isPermaLink="false">Text|gpt-5.4-pro|2026-03-05|1788754497067073083</guid>
-      <pubDate>Thu, 12 Mar 2026 18:14:57 +0000</pubDate>
-      <description>New row detected in Current models table.</description>
-    </item>
+    <pubDate>Fri, 13 Mar 2026 06:14:38 +0000</pubDate>
+
   </channel>
 </rss>
