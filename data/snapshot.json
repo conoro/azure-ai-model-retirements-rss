@@ -506,7 +506,7 @@
   "Image and video||gpt-image-1.5||2025-12-16": {
     "Model": "gpt-image-1.5",
     "Version": "2025-12-16",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Generally Available",
     "Deprecation date": "n/a",
     "Retirement date": "No earlier than 2026-12-16",
     "Replacement model": "",
