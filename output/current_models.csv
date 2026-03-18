@@ -24,6 +24,8 @@ Text,gpt-5.2-codex,2026-01-14,Generally Available,2027-01-14,2027-07-14,gpt-5.3-
 Text,gpt-5.3-chat,2025-12-11,Preview,n/a,2026-06-01,
 Text,gpt-5.3-codex,2026-02-24,Generally Available,2027-02-25,2027-08-25,
 Text,gpt-5.4,2026-03-05,Generally Available,2027-03-05,2027-09-05,
+Text,gpt-5.4-mini,2026-03-17,Generally Available,2027-03-17,2027-09-17,
+Text,gpt-5.4-nano,2026-03-17,Generally Available,2027-03-17,2027-09-17,
 Text,gpt-5.4-pro,2026-03-05,Generally Available,2027-03-05,2027-09-05,
 Text,model-router,2025-11-18,Generally Available,2026-11-18,2027-05-20,
 Text,o1,2024-12-17,Generally Available,2025-12-17,2026-07-15,o3

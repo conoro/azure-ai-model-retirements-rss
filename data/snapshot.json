@@ -224,6 +224,24 @@
     "Replacement model": "",
     "Type": "Text"
   },
+  "Text||gpt-5.4-mini||2026-03-17": {
+    "Model": "gpt-5.4-mini",
+    "Version": "2026-03-17",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-03-17",
+    "Retirement date": "2027-09-17",
+    "Replacement model": "",
+    "Type": "Text"
+  },
+  "Text||gpt-5.4-nano||2026-03-17": {
+    "Model": "gpt-5.4-nano",
+    "Version": "2026-03-17",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2027-03-17",
+    "Retirement date": "2027-09-17",
+    "Replacement model": "",
+    "Type": "Text"
+  },
   "Text||gpt-5.4-pro||2026-03-05": {
     "Model": "gpt-5.4-pro",
     "Version": "2026-03-05",
