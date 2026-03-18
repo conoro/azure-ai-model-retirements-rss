@@ -5,13 +5,13 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Tue, 17 Mar 2026 18:17:41 +0000</pubDate>
+    <pubDate>Wed, 18 Mar 2026 06:21:27 +0000</pubDate>
     <item>
-      <title>Updated fields for [Image and video] gpt-image-1.5 2025-12-16: Lifecycle status: 'Preview' → 'Generally Available'</title>
+      <title>Updated fields for [Image and video] gpt-image-1 2025-04-15: Retirement date: 'No earlier than 2026-03-31' → '2026-05-15'</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements?tabs=image</link>
-      <guid isPermaLink="false">Image and video|gpt-image-1.5|2025-12-16|-1023701285045112506</guid>
-      <pubDate>Tue, 17 Mar 2026 18:17:41 +0000</pubDate>
-      <description>Lifecycle status: 'Preview' → 'Generally Available'</description>
+      <guid isPermaLink="false">Image and video|gpt-image-1|2025-04-15|-3063166810227203133</guid>
+      <pubDate>Wed, 18 Mar 2026 06:21:27 +0000</pubDate>
+      <description>Retirement date: 'No earlier than 2026-03-31' → '2026-05-15'</description>
     </item>
   </channel>
 </rss>
