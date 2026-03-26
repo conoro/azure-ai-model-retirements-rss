@@ -535,8 +535,8 @@
     "Version": "2025-05-02",
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-02-28",
-    "Replacement model": "sora-2",
+    "Retirement date": "No earlier than 2026-09-15",
+    "Replacement model": "",
     "Type": "Image and video"
   },
   "Image and video||sora-2||2025-10-15": {
@@ -544,7 +544,7 @@
     "Version": "2025-10-15",
     "Lifecycle status": "Preview",
     "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-04-30",
+    "Retirement date": "No earlier than 2026-09-15",
     "Replacement model": "",
     "Type": "Image and video"
   },
