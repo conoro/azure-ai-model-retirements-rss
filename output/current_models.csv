@@ -8,6 +8,7 @@ Text,gpt-4o,2024-05-13,Generally Available,2025-05-13,"Standard deployment type 
 Text,gpt-4o,2024-08-06,Generally Available,2025-08-06,"Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",gpt-5.1
 Text,gpt-4o,2024-11-20,Generally Available,2025-11-20,2026-10-01,gpt-5.1
 Text,gpt-4o-mini,2024-07-18,Generally Available,2025-07-18,"Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",gpt-4.1-mini
+Text,gpt-5,2025-08-07,Generally Available,2026-08-07,2027-02-06,
 Text,gpt-5-chat,2025-08-07,Preview,n/a,2026-04-15,gpt-5.3-chat
 Text,gpt-5-chat,2025-10-03,Preview,n/a,2026-04-15,gpt-5.3-chat
 Text,gpt-5-codex,2025-09-15,Generally Available,2026-09-15,2027-03-17,

@@ -80,6 +80,15 @@
     "Replacement model": "gpt-4.1-mini",
     "Type": "Text"
   },
+  "Text||gpt-5||2025-08-07": {
+    "Model": "gpt-5",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Deprecation date": "2026-08-07",
+    "Retirement date": "2027-02-06",
+    "Replacement model": "",
+    "Type": "Text"
+  },
   "Text||gpt-5-chat||2025-08-07": {
     "Model": "gpt-5-chat",
     "Version": "2025-08-07",
