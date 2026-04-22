@@ -539,6 +539,15 @@
     "Replacement model": "",
     "Type": "Image and video"
   },
+  "Image and video||gpt-image-2||2026-04-21": {
+    "Model": "gpt-image-2",
+    "Version": "2026-04-21",
+    "Lifecycle status": "Preview",
+    "Deprecation date": "n/a",
+    "Retirement date": "No earlier than 2027-04-21",
+    "Replacement model": "",
+    "Type": "Image and video"
+  },
   "Image and video||sora-2||2025-10-15": {
     "Model": "sora-2",
     "Version": "2025-10-15",
