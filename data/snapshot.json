@@ -1,596 +1,490 @@
 {
-  "Text||codex-mini||2025-05-16": {
+  "Azure OpenAI||codex-mini||2025-05-16": {
     "Model": "codex-mini",
     "Version": "2025-05-16",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-05-16",
     "Retirement date": "2026-11-15",
     "Replacement model": "",
-    "Type": "Text"
+    "Type": "Azure OpenAI"
   },
-  "Text||computer-use-preview||2025-03-11": {
-    "Model": "computer-use-preview",
-    "Version": "2025-03-11",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-04-14",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-4.1||2025-04-14": {
+  "Azure OpenAI||gpt-4.1||2025-04-14": {
     "Model": "gpt-4.1",
     "Version": "2025-04-14",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-04-14",
-    "Retirement date": "2026-10-14",
-    "Replacement model": "gpt-5",
-    "Type": "Text"
+    "Retirement date": "2027-10-14",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4.1-mini||2025-04-14": {
+  "Azure OpenAI||gpt-4.1-mini||2025-04-14": {
     "Model": "gpt-4.1-mini",
     "Version": "2025-04-14",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-04-14",
-    "Retirement date": "2026-10-14",
-    "Replacement model": "gpt-5-mini",
-    "Type": "Text"
+    "Retirement date": "2027-10-14",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4.1-nano||2025-04-14": {
+  "Azure OpenAI||gpt-4.1-nano||2025-04-14": {
     "Model": "gpt-4.1-nano",
     "Version": "2025-04-14",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-04-14",
-    "Retirement date": "2026-10-14",
-    "Replacement model": "gpt-5-nano",
-    "Type": "Text"
+    "Retirement date": "2027-10-14",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4o||2024-05-13": {
+  "Azure OpenAI||gpt-4o||2024-05-13": {
     "Model": "gpt-4o",
     "Version": "2024-05-13",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2025-05-13",
-    "Retirement date": "Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2027-03-31",
     "Replacement model": "gpt-5.1",
-    "Type": "Text"
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4o||2024-08-06": {
+  "Azure OpenAI||gpt-4o||2024-08-06": {
     "Model": "gpt-4o",
     "Version": "2024-08-06",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2025-08-06",
-    "Retirement date": "Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2027-10-01",
     "Replacement model": "gpt-5.1",
-    "Type": "Text"
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4o||2024-11-20": {
+  "Azure OpenAI||gpt-4o||2024-11-20": {
     "Model": "gpt-4o",
     "Version": "2024-11-20",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2025-11-20",
     "Retirement date": "2026-10-01",
-    "Replacement model": "gpt-5.1",
-    "Type": "Text"
+    "Replacement model": "gpt-4.1",
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-4o-mini||2024-07-18": {
+  "Azure OpenAI||gpt-4o-mini||2024-07-18": {
     "Model": "gpt-4o-mini",
     "Version": "2024-07-18",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2025-07-18",
-    "Retirement date": "Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",
+    "Retirement date": "2027-10-01",
     "Replacement model": "gpt-4.1-mini",
-    "Type": "Text"
+    "Type": "Azure OpenAI"
   },
-  "Text||gpt-5||2025-08-07": {
-    "Model": "gpt-5",
-    "Version": "2025-08-07",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-08-07",
-    "Retirement date": "2027-02-06",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5-chat||2025-08-07": {
-    "Model": "gpt-5-chat",
-    "Version": "2025-08-07",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-04-15",
-    "Replacement model": "gpt-5.3-chat",
-    "Type": "Text"
-  },
-  "Text||gpt-5-chat||2025-10-03": {
-    "Model": "gpt-5-chat",
-    "Version": "2025-10-03",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-04-15",
-    "Replacement model": "gpt-5.3-chat",
-    "Type": "Text"
-  },
-  "Text||gpt-5-codex||2025-09-15": {
-    "Model": "gpt-5-codex",
-    "Version": "2025-09-15",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-09-15",
-    "Retirement date": "2027-03-17",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5-mini||2025-08-07": {
-    "Model": "gpt-5-mini",
-    "Version": "2025-08-07",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-08-07",
-    "Retirement date": "2027-02-06",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5-nano||2025-08-07": {
-    "Model": "gpt-5-nano",
-    "Version": "2025-08-07",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-08-07",
-    "Retirement date": "2027-02-06",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5-pro||2025-10-06": {
-    "Model": "gpt-5-pro",
-    "Version": "2025-10-06",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-10-06",
-    "Retirement date": "2027-04-07",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.1||2025-11-13": {
-    "Model": "gpt-5.1",
-    "Version": "2025-11-13",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-11-13",
-    "Retirement date": "2027-05-15",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.1-chat||2025-11-13": {
-    "Model": "gpt-5.1-chat",
-    "Version": "2025-11-13",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-04-15",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.1-codex||2025-11-13": {
-    "Model": "gpt-5.1-codex",
-    "Version": "2025-11-13",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-11-13",
-    "Retirement date": "2027-05-15",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.1-codex-mini||2025-11-13": {
-    "Model": "gpt-5.1-codex-mini",
-    "Version": "2025-11-13",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-11-13",
-    "Retirement date": "2027-05-15",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.2||2025-12-11": {
-    "Model": "gpt-5.2",
-    "Version": "2025-12-11",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "No earlier than 2026-12-12",
-    "Retirement date": "No earlier than 2027-05-12",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.2-chat||2025-12-11": {
-    "Model": "gpt-5.2-chat",
-    "Version": "2025-12-11",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-04-01",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.2-codex||2026-01-14": {
-    "Model": "gpt-5.2-codex",
-    "Version": "2026-01-14",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-01-14",
-    "Retirement date": "2027-07-14",
-    "Replacement model": "gpt-5.3-codex",
-    "Type": "Text"
-  },
-  "Text||gpt-5.3-chat||2025-12-11": {
-    "Model": "gpt-5.3-chat",
-    "Version": "2025-12-11",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-06-01",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.3-codex||2026-02-24": {
-    "Model": "gpt-5.3-codex",
-    "Version": "2026-02-24",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-02-25",
-    "Retirement date": "2027-08-25",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.4||2026-03-05": {
-    "Model": "gpt-5.4",
-    "Version": "2026-03-05",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-03-05",
-    "Retirement date": "2027-09-05",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.4-mini||2026-03-17": {
-    "Model": "gpt-5.4-mini",
-    "Version": "2026-03-17",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-03-17",
-    "Retirement date": "2027-09-17",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.4-nano||2026-03-17": {
-    "Model": "gpt-5.4-nano",
-    "Version": "2026-03-17",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-03-17",
-    "Retirement date": "2027-09-17",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||gpt-5.4-pro||2026-03-05": {
-    "Model": "gpt-5.4-pro",
-    "Version": "2026-03-05",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2027-03-05",
-    "Retirement date": "2027-09-05",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||model-router||2025-11-18": {
-    "Model": "model-router",
-    "Version": "2025-11-18",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-11-18",
-    "Retirement date": "2027-05-20",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||o1||2024-12-17": {
-    "Model": "o1",
-    "Version": "2024-12-17",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2025-12-17",
-    "Retirement date": "2026-07-15",
-    "Replacement model": "o3",
-    "Type": "Text"
-  },
-  "Text||o1-pro||2025-03-19": {
-    "Model": "o1-pro",
-    "Version": "2025-03-19",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-03-19",
-    "Retirement date": "2026-09-18",
-    "Replacement model": "o3-pro",
-    "Type": "Text"
-  },
-  "Text||o3||2025-04-16": {
-    "Model": "o3",
-    "Version": "2025-04-16",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-04-16",
-    "Retirement date": "2026-10-16",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||o3-deep-research||2025-06-26": {
-    "Model": "o3-deep-research",
-    "Version": "2025-06-26",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-06-26",
-    "Retirement date": "2026-12-26",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||o3-mini||2025-01-31": {
-    "Model": "o3-mini",
-    "Version": "2025-01-31",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-01-31",
-    "Retirement date": "2026-08-02",
-    "Replacement model": "o4-mini",
-    "Type": "Text"
-  },
-  "Text||o3-pro||2025-06-10": {
-    "Model": "o3-pro",
-    "Version": "2025-06-10",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-06-10",
-    "Retirement date": "2026-12-10",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Text||o4-mini||2025-04-16": {
-    "Model": "o4-mini",
-    "Version": "2025-04-16",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-04-16",
-    "Retirement date": "2026-10-16",
-    "Replacement model": "",
-    "Type": "Text"
-  },
-  "Audio||gpt-4o-audio-preview||2024-12-17": {
-    "Model": "gpt-4o-audio-preview",
-    "Version": "2024-12-17",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-03-24",
-    "Replacement model": "gpt-audio",
-    "Type": "Audio"
-  },
-  "Audio||gpt-4o-mini-audio-preview||2024-12-17": {
-    "Model": "gpt-4o-mini-audio-preview",
-    "Version": "2024-12-17",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-03-24",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||gpt-4o-mini-realtime-preview||2024-12-17": {
-    "Model": "gpt-4o-mini-realtime-preview",
-    "Version": "2024-12-17",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-03-24",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||gpt-4o-mini-transcribe||2025-03-20": {
+  "Azure OpenAI||gpt-4o-mini-transcribe||2025-03-20": {
     "Model": "gpt-4o-mini-transcribe",
     "Version": "2025-03-20",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
+    "Lifecycle status": "Generally Available",
     "Retirement date": "2026-06-01",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-4o-mini-transcribe||2025-12-15": {
+  "Azure OpenAI||gpt-4o-mini-transcribe||2025-12-15": {
     "Model": "gpt-4o-mini-transcribe",
     "Version": "2025-12-15",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
     "Retirement date": "2026-12-15",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-4o-mini-tts||2025-03-20": {
+  "Azure OpenAI||gpt-4o-mini-tts||2025-03-20": {
     "Model": "gpt-4o-mini-tts",
     "Version": "2025-03-20",
     "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
     "Retirement date": "2026-06-01",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-4o-mini-tts||2025-12-15": {
+  "Azure OpenAI||gpt-4o-mini-tts||2025-12-15": {
     "Model": "gpt-4o-mini-tts",
     "Version": "2025-12-15",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
     "Retirement date": "2026-12-15",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-4o-realtime-preview||2024-12-17": {
-    "Model": "gpt-4o-realtime-preview",
-    "Version": "2024-12-17",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-03-24",
-    "Replacement model": "gpt-realtime",
-    "Type": "Audio"
-  },
-  "Audio||gpt-4o-transcribe||2025-03-20": {
+  "Azure OpenAI||gpt-4o-transcribe||2025-03-20": {
     "Model": "gpt-4o-transcribe",
     "Version": "2025-03-20",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
+    "Lifecycle status": "Generally Available",
     "Retirement date": "2026-06-01",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-4o-transcribe-diarize||2025-10-15": {
+  "Azure OpenAI||gpt-4o-transcribe-diarize||2025-10-15": {
     "Model": "gpt-4o-transcribe-diarize",
     "Version": "2025-10-15",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-10-15",
     "Retirement date": "2027-04-16",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-audio||2025-08-28": {
+  "Azure OpenAI||gpt-5||2025-08-07": {
+    "Model": "gpt-5",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-06",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-chat||2025-08-07": {
+    "Model": "gpt-5-chat",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-05-13",
+    "Replacement model": "gpt-5.3-chat",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-chat||2025-10-03": {
+    "Model": "gpt-5-chat",
+    "Version": "2025-10-03",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-05-13",
+    "Replacement model": "gpt-5.3-chat",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-codex||2025-09-15": {
+    "Model": "gpt-5-codex",
+    "Version": "2025-09-15",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-03-17",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-mini||2025-08-07": {
+    "Model": "gpt-5-mini",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-06",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-nano||2025-08-07": {
+    "Model": "gpt-5-nano",
+    "Version": "2025-08-07",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-06",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5-pro||2025-10-06": {
+    "Model": "gpt-5-pro",
+    "Version": "2025-10-06",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-04-07",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.1||2025-11-13": {
+    "Model": "gpt-5.1",
+    "Version": "2025-11-13",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-05-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.1-chat||2025-11-13": {
+    "Model": "gpt-5.1-chat",
+    "Version": "2025-11-13",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-05-13",
+    "Replacement model": "gpt-5.3-chat",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.1-codex||2025-11-13": {
+    "Model": "gpt-5.1-codex",
+    "Version": "2025-11-13",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-05-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.1-codex-max||2025-12-04": {
+    "Model": "gpt-5.1-codex-max",
+    "Version": "2025-12-04",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-12-05",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.1-codex-mini||2025-11-13": {
+    "Model": "gpt-5.1-codex-mini",
+    "Version": "2025-11-13",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-05-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.2||2025-12-11": {
+    "Model": "gpt-5.2",
+    "Version": "2025-12-11",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-12-12",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.2-chat||2025-12-11": {
+    "Model": "gpt-5.2-chat",
+    "Version": "2025-12-11",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-05-13",
+    "Replacement model": "gpt-5.3-chat",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.2-chat||2026-02-10": {
+    "Model": "gpt-5.2-chat",
+    "Version": "2026-02-10",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-06-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.2-codex||2026-01-14": {
+    "Model": "gpt-5.2-codex",
+    "Version": "2026-01-14",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-01-14",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.3-chat||2026-03-03": {
+    "Model": "gpt-5.3-chat",
+    "Version": "2026-03-03",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-06-03",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.3-codex||2026-02-24": {
+    "Model": "gpt-5.3-codex",
+    "Version": "2026-02-24",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-25",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.4||2026-03-05": {
+    "Model": "gpt-5.4",
+    "Version": "2026-03-05",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-03-05",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.4-mini||2026-03-17": {
+    "Model": "gpt-5.4-mini",
+    "Version": "2026-03-17",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-03-18",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.4-nano||2026-03-17": {
+    "Model": "gpt-5.4-nano",
+    "Version": "2026-03-17",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-03-18",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.4-pro||2026-03-05": {
+    "Model": "gpt-5.4-pro",
+    "Version": "2026-03-05",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-03-06",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-audio||2025-08-28": {
     "Model": "gpt-audio",
     "Version": "2025-08-28",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-08-28",
     "Retirement date": "2027-02-28",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-audio-1.5||2026-02-23": {
+  "Azure OpenAI||gpt-audio-1.5||2026-02-23": {
     "Model": "gpt-audio-1.5",
     "Version": "2026-02-23",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than February 23, 2027",
+    "Retirement date": "2027-02-23",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-audio-mini||2025-10-06": {
+  "Azure OpenAI||gpt-audio-mini||2025-10-06": {
     "Model": "gpt-audio-mini",
     "Version": "2025-10-06",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-10-06",
     "Retirement date": "2027-04-07",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||gpt-realtime||2025-08-28": {
-    "Model": "gpt-realtime",
-    "Version": "2025-08-28",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-08-28",
-    "Retirement date": "2027-02-28",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||gpt-realtime-1.5||2026-02-23": {
-    "Model": "gpt-realtime-1.5",
-    "Version": "2026-02-23",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than February 23, 2027",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||gpt-realtime-mini||2025-12-15": {
-    "Model": "gpt-realtime-mini",
+  "Azure OpenAI||gpt-audio-mini||2025-12-15": {
+    "Model": "gpt-audio-mini",
     "Version": "2025-12-15",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
     "Retirement date": "2026-12-15",
     "Replacement model": "",
-    "Type": "Audio"
+    "Type": "Azure OpenAI"
   },
-  "Audio||tts||001": {
-    "Model": "tts",
-    "Version": "001",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "No earlier than February 28, 2026",
-    "Retirement date": "2026-06-18",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||tts-hd||001": {
-    "Model": "tts-hd",
-    "Version": "001",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "No earlier than February 28, 2026",
-    "Retirement date": "2026-06-18",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Audio||whisper||001": {
-    "Model": "whisper",
-    "Version": "001",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "No earlier than June 18, 2026",
-    "Retirement date": "2026-06-18",
-    "Replacement model": "",
-    "Type": "Audio"
-  },
-  "Image and video||dall-e-3||3": {
-    "Model": "dall-e-3",
-    "Version": "3",
-    "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "2026-03-04",
-    "Replacement model": "gpt-image-1.5",
-    "Type": "Image and video"
-  },
-  "Image and video||gpt-image-1||2025-04-15": {
+  "Azure OpenAI||gpt-image-1||2025-04-15": {
     "Model": "gpt-image-1",
     "Version": "2025-04-15",
     "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
     "Retirement date": "2026-05-15",
-    "Replacement model": "gpt-image-1.5",
-    "Type": "Image and video"
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Image and video||gpt-image-1-mini||2025-10-06": {
+  "Azure OpenAI||gpt-image-1-mini||2025-10-06": {
     "Model": "gpt-image-1-mini",
     "Version": "2025-10-06",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "2026-10-06",
     "Retirement date": "2027-04-07",
     "Replacement model": "",
-    "Type": "Image and video"
+    "Type": "Azure OpenAI"
   },
-  "Image and video||gpt-image-1.5||2025-12-16": {
+  "Azure OpenAI||gpt-image-1.5||2025-12-16": {
     "Model": "gpt-image-1.5",
     "Version": "2025-12-16",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-12-16",
+    "Retirement date": "2026-12-16",
     "Replacement model": "",
-    "Type": "Image and video"
+    "Type": "Azure OpenAI"
   },
-  "Image and video||gpt-image-2||2026-04-21": {
-    "Model": "gpt-image-2",
-    "Version": "2026-04-21",
-    "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2027-04-21",
+  "Azure OpenAI||gpt-realtime||2025-08-28": {
+    "Model": "gpt-realtime",
+    "Version": "2025-08-28",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-28",
     "Replacement model": "",
-    "Type": "Image and video"
+    "Type": "Azure OpenAI"
   },
-  "Image and video||sora-2||2025-10-15": {
+  "Azure OpenAI||gpt-realtime-1.5||2026-02-23": {
+    "Model": "gpt-realtime-1.5",
+    "Version": "2026-02-23",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-02-23",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-realtime-mini||2025-10-06": {
+    "Model": "gpt-realtime-mini",
+    "Version": "2025-10-06",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-04-07",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-realtime-mini||2025-12-15": {
+    "Model": "gpt-realtime-mini",
+    "Version": "2025-12-15",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-12-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o1||2024-12-17": {
+    "Model": "o1",
+    "Version": "2024-12-17",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-07-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o3||2025-04-16": {
+    "Model": "o3",
+    "Version": "2025-04-16",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-10-16",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o3-deep-research||2025-06-26": {
+    "Model": "o3-deep-research",
+    "Version": "2025-06-26",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-12-26",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o3-mini||2025-01-31": {
+    "Model": "o3-mini",
+    "Version": "2025-01-31",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-08-02",
+    "Replacement model": "o4-mini",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o3-pro||2025-06-10": {
+    "Model": "o3-pro",
+    "Version": "2025-06-10",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-12-10",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o4-mini||2025-04-16": {
+    "Model": "o4-mini",
+    "Version": "2025-04-16",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-10-16",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||sora-2||2025-10-06": {
     "Model": "sora-2",
-    "Version": "2025-10-15",
+    "Version": "2025-10-06",
     "Lifecycle status": "Preview",
-    "Deprecation date": "n/a",
-    "Retirement date": "No earlier than 2026-09-15",
+    "Retirement date": "2026-06-03",
     "Replacement model": "",
-    "Type": "Image and video"
+    "Type": "Azure OpenAI"
   },
-  "Embedding||text-embedding-3-large||1": {
+  "Azure OpenAI||text-embedding-3-large||1": {
     "Model": "text-embedding-3-large",
     "Version": "1",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No retirement scheduled. Will not retire before April 15, 2027",
-    "Replacement model": "n/a",
-    "Type": "Embedding"
+    "Retirement date": "2027-04-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Embedding||text-embedding-3-small||1": {
+  "Azure OpenAI||text-embedding-3-small||1": {
     "Model": "text-embedding-3-small",
     "Version": "1",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No retirement scheduled. Will not retire before April 15, 2027",
-    "Replacement model": "n/a",
-    "Type": "Embedding"
+    "Retirement date": "2027-04-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Embedding||text-embedding-ada-002||1": {
+  "Azure OpenAI||text-embedding-ada-002||1": {
     "Model": "text-embedding-ada-002",
     "Version": "1",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No retirement scheduled. Will not retire before April 15, 2027",
-    "Replacement model": "n/a",
-    "Type": "Embedding"
+    "Retirement date": "2027-04-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   },
-  "Embedding||text-embedding-ada-002||2": {
+  "Azure OpenAI||text-embedding-ada-002||2": {
     "Model": "text-embedding-ada-002",
     "Version": "2",
     "Lifecycle status": "Generally Available",
-    "Deprecation date": "n/a",
-    "Retirement date": "No retirement scheduled. Will not retire before April 15, 2027",
-    "Replacement model": "n/a",
-    "Type": "Embedding"
+    "Retirement date": "2027-04-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||tts||001": {
+    "Model": "tts",
+    "Version": "001",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-06-18",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||tts-hd||001": {
+    "Model": "tts-hd",
+    "Version": "001",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-06-18",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||whisper||001": {
+    "Model": "whisper",
+    "Version": "001",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-06-18",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
   }
 }

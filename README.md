@@ -1,15 +1,11 @@
-# Azure OpenAI "Current models" Retirement Scraper
+# Azure OpenAI Retirement Scraper
 
 ## What it does
 
-- Scrapes Microsoft's Learn page for Azure OpenAI model retirements:
-  https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements
-- Extracts ONLY the **Current models** tables (ignores Fine-tuned and Default) across:
-  - Text (Text generation)
-  - Audio
-  - Image and video
-  - Embedding
-- Produces a combined CSV with a **Type** column.
+- Scrapes Microsoft's Learn page for the Azure OpenAI model retirement schedule:
+  https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule
+- Extracts the **Azure OpenAI** section table (under "Foundry Models sold directly by Azure").
+- Produces a CSV with a **Type** column (always `Azure OpenAI`).
 - Persists a local JSON snapshot for change detection between runs.
 - Writes an RSS feed with items for **new rows** or **field changes** (e.g., Retirement date changes).
 
@@ -32,22 +28,20 @@ pip install -r requirements.txt
 
 ```bash
 python scrape_ms_retirements.py
-# Or focus only on Text models:
-python scrape_ms_retirements.py --only text
 ```
 
 ## Outputs
 
-- **CSV:**    `/mnt/data/ms_model_retirements/output/current_models.csv`
-- **RSS:**    `/mnt/data/ms_model_retirements/output/rss.xml`
-- **State:**  `/mnt/data/ms_model_retirements/data/snapshot.json`
+- **CSV:**    `output/current_models.csv`
+- **RSS:**    `output/rss.xml`
+- **State:**  `data/snapshot.json`
 
 ## Notes
 
 - First run creates a baseline snapshot and a single RSS item noting the baseline.
 - Subsequent runs include items for NEW rows and for any field updates among:
   Lifecycle status, Retirement date, Replacement model.
-- The feed uses the page's tab query param in item links (e.g., `?tabs=text`) based on the row Type.
+- Item links point at the `#azure-openai` anchor on the schedule page.
 
 ## GitHub Actions
 

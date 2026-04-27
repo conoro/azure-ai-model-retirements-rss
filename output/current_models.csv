@@ -1,67 +1,62 @@
 Type,Model,Version,Lifecycle status,Deprecation date,Retirement date,Replacement model
-Text,codex-mini,2025-05-16,Generally Available,2026-05-16,2026-11-15,
-Text,computer-use-preview,2025-03-11,Preview,n/a,No earlier than 2026-04-14,
-Text,gpt-4.1,2025-04-14,Generally Available,2026-04-14,2026-10-14,gpt-5
-Text,gpt-4.1-mini,2025-04-14,Generally Available,2026-04-14,2026-10-14,gpt-5-mini
-Text,gpt-4.1-nano,2025-04-14,Generally Available,2026-04-14,2026-10-14,gpt-5-nano
-Text,gpt-4o,2024-05-13,Generally Available,2025-05-13,"Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",gpt-5.1
-Text,gpt-4o,2024-08-06,Generally Available,2025-08-06,"Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",gpt-5.1
-Text,gpt-4o,2024-11-20,Generally Available,2025-11-20,2026-10-01,gpt-5.1
-Text,gpt-4o-mini,2024-07-18,Generally Available,2025-07-18,"Standard deployment type retires on 2026-03-31 , with auto-upgrades scheduled to start on 2026-03-09 . For other deployment types, including ALL Provisioned, Global Standard, and Data Zone Standard, the retirement date has been moved to 2026-10-01 .",gpt-4.1-mini
-Text,gpt-5,2025-08-07,Generally Available,2026-08-07,2027-02-06,
-Text,gpt-5-chat,2025-08-07,Preview,n/a,2026-04-15,gpt-5.3-chat
-Text,gpt-5-chat,2025-10-03,Preview,n/a,2026-04-15,gpt-5.3-chat
-Text,gpt-5-codex,2025-09-15,Generally Available,2026-09-15,2027-03-17,
-Text,gpt-5-mini,2025-08-07,Generally Available,2026-08-07,2027-02-06,
-Text,gpt-5-nano,2025-08-07,Generally Available,2026-08-07,2027-02-06,
-Text,gpt-5-pro,2025-10-06,Generally Available,2026-10-06,2027-04-07,
-Text,gpt-5.1,2025-11-13,Generally Available,2026-11-13,2027-05-15,
-Text,gpt-5.1-chat,2025-11-13,Preview,n/a,2026-04-15,
-Text,gpt-5.1-codex,2025-11-13,Generally Available,2026-11-13,2027-05-15,
-Text,gpt-5.1-codex-mini,2025-11-13,Generally Available,2026-11-13,2027-05-15,
-Text,gpt-5.2,2025-12-11,Generally Available,No earlier than 2026-12-12,No earlier than 2027-05-12,
-Text,gpt-5.2-chat,2025-12-11,Preview,n/a,No earlier than 2026-04-01,
-Text,gpt-5.2-codex,2026-01-14,Generally Available,2027-01-14,2027-07-14,gpt-5.3-codex
-Text,gpt-5.3-chat,2025-12-11,Preview,n/a,2026-06-01,
-Text,gpt-5.3-codex,2026-02-24,Generally Available,2027-02-25,2027-08-25,
-Text,gpt-5.4,2026-03-05,Generally Available,2027-03-05,2027-09-05,
-Text,gpt-5.4-mini,2026-03-17,Generally Available,2027-03-17,2027-09-17,
-Text,gpt-5.4-nano,2026-03-17,Generally Available,2027-03-17,2027-09-17,
-Text,gpt-5.4-pro,2026-03-05,Generally Available,2027-03-05,2027-09-05,
-Text,model-router,2025-11-18,Generally Available,2026-11-18,2027-05-20,
-Text,o1,2024-12-17,Generally Available,2025-12-17,2026-07-15,o3
-Text,o1-pro,2025-03-19,Generally Available,2026-03-19,2026-09-18,o3-pro
-Text,o3,2025-04-16,Generally Available,2026-04-16,2026-10-16,
-Text,o3-deep-research,2025-06-26,Generally Available,2026-06-26,2026-12-26,
-Text,o3-mini,2025-01-31,Generally Available,2026-01-31,2026-08-02,o4-mini
-Text,o3-pro,2025-06-10,Generally Available,2026-06-10,2026-12-10,
-Text,o4-mini,2025-04-16,Generally Available,2026-04-16,2026-10-16,
-Audio,gpt-4o-audio-preview,2024-12-17,Preview,n/a,2026-03-24,gpt-audio
-Audio,gpt-4o-mini-audio-preview,2024-12-17,Preview,n/a,2026-03-24,
-Audio,gpt-4o-mini-realtime-preview,2024-12-17,Preview,n/a,2026-03-24,
-Audio,gpt-4o-mini-transcribe,2025-03-20,Preview,n/a,2026-06-01,
-Audio,gpt-4o-mini-transcribe,2025-12-15,Generally Available,n/a,2026-12-15,
-Audio,gpt-4o-mini-tts,2025-03-20,Preview,n/a,2026-06-01,
-Audio,gpt-4o-mini-tts,2025-12-15,Generally Available,n/a,2026-12-15,
-Audio,gpt-4o-realtime-preview,2024-12-17,Preview,n/a,2026-03-24,gpt-realtime
-Audio,gpt-4o-transcribe,2025-03-20,Preview,n/a,2026-06-01,
-Audio,gpt-4o-transcribe-diarize,2025-10-15,Generally Available,2026-10-15,2027-04-16,
-Audio,gpt-audio,2025-08-28,Generally Available,2026-08-28,2027-02-28,
-Audio,gpt-audio-1.5,2026-02-23,Generally Available,n/a,"No earlier than February 23, 2027",
-Audio,gpt-audio-mini,2025-10-06,Generally Available,2026-10-06,2027-04-07,
-Audio,gpt-realtime,2025-08-28,Generally Available,2026-08-28,2027-02-28,
-Audio,gpt-realtime-1.5,2026-02-23,Generally Available,n/a,"No earlier than February 23, 2027",
-Audio,gpt-realtime-mini,2025-12-15,Generally Available,n/a,2026-12-15,
-Audio,tts,001,Generally Available,"No earlier than February 28, 2026",2026-06-18,
-Audio,tts-hd,001,Generally Available,"No earlier than February 28, 2026",2026-06-18,
-Audio,whisper,001,Generally Available,"No earlier than June 18, 2026",2026-06-18,
-Image and video,dall-e-3,3,Generally Available,n/a,2026-03-04,gpt-image-1.5
-Image and video,gpt-image-1,2025-04-15,Preview,n/a,2026-05-15,gpt-image-1.5
-Image and video,gpt-image-1-mini,2025-10-06,Generally Available,2026-10-06,2027-04-07,
-Image and video,gpt-image-1.5,2025-12-16,Generally Available,n/a,No earlier than 2026-12-16,
-Image and video,gpt-image-2,2026-04-21,Preview,n/a,No earlier than 2027-04-21,
-Image and video,sora-2,2025-10-15,Preview,n/a,No earlier than 2026-09-15,
-Embedding,text-embedding-3-large,1,Generally Available,n/a,"No retirement scheduled. Will not retire before April 15, 2027",n/a
-Embedding,text-embedding-3-small,1,Generally Available,n/a,"No retirement scheduled. Will not retire before April 15, 2027",n/a
-Embedding,text-embedding-ada-002,1,Generally Available,n/a,"No retirement scheduled. Will not retire before April 15, 2027",n/a
-Embedding,text-embedding-ada-002,2,Generally Available,n/a,"No retirement scheduled. Will not retire before April 15, 2027",n/a
+Azure OpenAI,codex-mini,2025-05-16,Generally Available,,2026-11-15,
+Azure OpenAI,gpt-4.1,2025-04-14,Generally Available,,2027-10-14,
+Azure OpenAI,gpt-4.1-mini,2025-04-14,Generally Available,,2027-10-14,
+Azure OpenAI,gpt-4.1-nano,2025-04-14,Generally Available,,2027-10-14,
+Azure OpenAI,gpt-4o,2024-05-13,Deprecated,,2027-03-31,gpt-5.1
+Azure OpenAI,gpt-4o,2024-08-06,Deprecated,,2027-10-01,gpt-5.1
+Azure OpenAI,gpt-4o,2024-11-20,Generally Available,,2026-10-01,gpt-4.1
+Azure OpenAI,gpt-4o-mini,2024-07-18,Generally Available,,2027-10-01,gpt-4.1-mini
+Azure OpenAI,gpt-4o-mini-transcribe,2025-03-20,Generally Available,,2026-06-01,
+Azure OpenAI,gpt-4o-mini-transcribe,2025-12-15,Generally Available,,2026-12-15,
+Azure OpenAI,gpt-4o-mini-tts,2025-03-20,Preview,,2026-06-01,
+Azure OpenAI,gpt-4o-mini-tts,2025-12-15,Generally Available,,2026-12-15,
+Azure OpenAI,gpt-4o-transcribe,2025-03-20,Generally Available,,2026-06-01,
+Azure OpenAI,gpt-4o-transcribe-diarize,2025-10-15,Generally Available,,2027-04-16,
+Azure OpenAI,gpt-5,2025-08-07,Generally Available,,2027-02-06,
+Azure OpenAI,gpt-5-chat,2025-08-07,Preview,,2026-05-13,gpt-5.3-chat
+Azure OpenAI,gpt-5-chat,2025-10-03,Preview,,2026-05-13,gpt-5.3-chat
+Azure OpenAI,gpt-5-codex,2025-09-15,Generally Available,,2027-03-17,
+Azure OpenAI,gpt-5-mini,2025-08-07,Generally Available,,2027-02-06,
+Azure OpenAI,gpt-5-nano,2025-08-07,Generally Available,,2027-02-06,
+Azure OpenAI,gpt-5-pro,2025-10-06,Generally Available,,2027-04-07,
+Azure OpenAI,gpt-5.1,2025-11-13,Generally Available,,2027-05-15,
+Azure OpenAI,gpt-5.1-chat,2025-11-13,Preview,,2026-05-13,gpt-5.3-chat
+Azure OpenAI,gpt-5.1-codex,2025-11-13,Generally Available,,2027-05-15,
+Azure OpenAI,gpt-5.1-codex-max,2025-12-04,Generally Available,,2026-12-05,
+Azure OpenAI,gpt-5.1-codex-mini,2025-11-13,Generally Available,,2027-05-15,
+Azure OpenAI,gpt-5.2,2025-12-11,Generally Available,,2026-12-12,
+Azure OpenAI,gpt-5.2-chat,2025-12-11,Preview,,2026-05-13,gpt-5.3-chat
+Azure OpenAI,gpt-5.2-chat,2026-02-10,Preview,,2026-06-09,
+Azure OpenAI,gpt-5.2-codex,2026-01-14,Generally Available,,2027-01-14,
+Azure OpenAI,gpt-5.3-chat,2026-03-03,Preview,,2026-06-03,
+Azure OpenAI,gpt-5.3-codex,2026-02-24,Generally Available,,2027-02-25,
+Azure OpenAI,gpt-5.4,2026-03-05,Generally Available,,2027-03-05,
+Azure OpenAI,gpt-5.4-mini,2026-03-17,Generally Available,,2027-03-18,
+Azure OpenAI,gpt-5.4-nano,2026-03-17,Generally Available,,2027-03-18,
+Azure OpenAI,gpt-5.4-pro,2026-03-05,Generally Available,,2027-03-06,
+Azure OpenAI,gpt-audio,2025-08-28,Generally Available,,2027-02-28,
+Azure OpenAI,gpt-audio-1.5,2026-02-23,Generally Available,,2027-02-23,
+Azure OpenAI,gpt-audio-mini,2025-10-06,Generally Available,,2027-04-07,
+Azure OpenAI,gpt-audio-mini,2025-12-15,Generally Available,,2026-12-15,
+Azure OpenAI,gpt-image-1,2025-04-15,Preview,,2026-05-15,
+Azure OpenAI,gpt-image-1-mini,2025-10-06,Generally Available,,2027-04-07,
+Azure OpenAI,gpt-image-1.5,2025-12-16,Generally Available,,2026-12-16,
+Azure OpenAI,gpt-realtime,2025-08-28,Generally Available,,2027-02-28,
+Azure OpenAI,gpt-realtime-1.5,2026-02-23,Generally Available,,2027-02-23,
+Azure OpenAI,gpt-realtime-mini,2025-10-06,Generally Available,,2027-04-07,
+Azure OpenAI,gpt-realtime-mini,2025-12-15,Generally Available,,2026-12-15,
+Azure OpenAI,o1,2024-12-17,Deprecated,,2026-07-15,
+Azure OpenAI,o3,2025-04-16,Generally Available,,2026-10-16,
+Azure OpenAI,o3-deep-research,2025-06-26,Generally Available,,2026-12-26,
+Azure OpenAI,o3-mini,2025-01-31,Deprecated,,2026-08-02,o4-mini
+Azure OpenAI,o3-pro,2025-06-10,Generally Available,,2026-12-10,
+Azure OpenAI,o4-mini,2025-04-16,Generally Available,,2027-10-16,
+Azure OpenAI,sora-2,2025-10-06,Preview,,2026-06-03,
+Azure OpenAI,text-embedding-3-large,1,Generally Available,,2027-04-15,
+Azure OpenAI,text-embedding-3-small,1,Generally Available,,2027-04-15,
+Azure OpenAI,text-embedding-ada-002,1,Generally Available,,2027-04-15,
+Azure OpenAI,text-embedding-ada-002,2,Generally Available,,2027-04-15,
+Azure OpenAI,tts,001,Preview,,2026-06-18,
+Azure OpenAI,tts-hd,001,Generally Available,,2026-06-18,
+Azure OpenAI,whisper,001,Generally Available,,2026-06-18,

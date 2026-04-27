@@ -1,21 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Scrape Microsoft's Azure OpenAI "model deprecations and retirements" page and:
-  1) Extract ONLY "Current models" tables (skip Fine-tuned and Default)
-  2) Combine across all tabs/types (Text generation, Audio, Image and video, Embedding)
-  3) Save a clean CSV with a "Type" column
-  4) Compare against a local snapshot (JSON) to detect:
+Scrape Microsoft's Azure OpenAI model retirement schedule page and:
+  1) Extract the Azure OpenAI section table from the Model retirement schedule page
+  2) Save a clean CSV with a "Type" column (always "Azure OpenAI")
+  3) Compare against a local snapshot (JSON) to detect:
         - New rows
         - Changes to any fields (esp. Retirement date)
-  5) Generate an RSS feed with entries for differences detected during this run
+  4) Generate an RSS feed with entries for differences detected during this run
 
 First run: creates a baseline snapshot; RSS will include a single "Baseline created" item.
 Subsequent runs: RSS includes entries for new/changed rows only.
 
 Usage:
   python scrape_ms_retirements.py
-  python scrape_ms_retirements.py --only text        # (optional) focus on text only
   python scrape_ms_retirements.py --outdir ./out     # change output dir
 """
 import argparse
@@ -24,47 +22,22 @@ import datetime as dt
 import json
 import os
 import re
-import sys
-from typing import List, Dict, Tuple, Optional
-from urllib.parse import urlencode
+from typing import List, Dict, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 
-MS_URL_BASE = "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements"
-# We parse a single page that already contains the Current models section broken down by subsections.
-# The query param (?tabs=...) is used for deep links; we still rely on the combined page so parsing is simpler.
-TAB_MAP = {
-    "Text": "text",
-    "Audio": "audio",
-    "Image and video": "image",
-    "Embedding": "embedding",
-}
+# As of 2026-04 Microsoft moved the per-model tables off the lifecycle policy
+# page (model-retirements) onto a dedicated schedule page, organised by provider
+# instead of by modality. We scrape the "Azure OpenAI" section only.
+MS_URL_BASE = "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"
+AZURE_OPENAI_LINK = f"{MS_URL_BASE}#azure-openai"
+TYPE_LABEL = "Azure OpenAI"
 
-# Headings we consider inside "Current models"
-VALID_SECTION_TITLES = list(TAB_MAP.keys())
-
-def canonical_type_from_title(title: str) -> Optional[str]:
-    """
-    Map section heading text to one of: "Text", "Audio", "Image and video", "Embedding".
-    Handles variants like "Text generation", "Text models", "Image & video", etc.
-    """
-    if not title:
-        return None
-    s = title.strip().lower()
-    s = s.replace("&", "and")
-    s = re.sub(r"[^a-z0-9\s]", " ", s)
-    s = re.sub(r"\s+", " ", s)
-    # Checks are intentionally broad
-    if "embedding" in s:
-        return "Embedding"
-    if "audio" in s or "speech" in s:
-        return "Audio"
-    if "image" in s or "video" in s or "vision" in s:
-        return "Image and video"
-    if "text" in s or "text generation" in s or "chat" in s:
-        return "Text"
-    return None
+# Old snapshot keys used modality-based Type values. Migrate them on load so
+# the first run after the page restructure doesn't flood RSS with "new model"
+# items for things subscribers already know about.
+LEGACY_TYPES = {"Text", "Audio", "Image and video", "Embedding"}
 
 
 def fetch_page() -> str:
@@ -74,6 +47,10 @@ def fetch_page() -> str:
     }
     r = requests.get(MS_URL_BASE, headers=headers, timeout=30)
     r.raise_for_status()
+    # Microsoft Learn returns text/html without an explicit charset, so
+    # requests falls back to ISO-8859-1 and mojibakes UTF-8 characters
+    # (e.g. em-dash). Force UTF-8 to match the actual page encoding.
+    r.encoding = "utf-8"
     return r.text
 
 def normalize_text(s: str) -> str:
@@ -83,21 +60,6 @@ def normalize_text(s: str) -> str:
     s = s.strip().strip("`").strip()
     s = re.sub(r"\s+", " ", s)
     return s
-
-def find_current_models_section(soup: BeautifulSoup):
-    # Find the H2 with text like "Current models"
-    for h2 in soup.find_all(["h2"]):
-        if h2.get_text(strip=True).lower().startswith("current models"):
-            return h2
-    return None
-
-def next_tag(tag):
-    t = tag
-    while t is not None:
-        t = t.find_next()
-        if getattr(t, "name", None):
-            return t
-    return None
 
 def parse_table(table, type_label: str) -> List[Dict[str, str]]:
     # Convert HTML table to list of dicts. Headers could vary slightly; normalize by header text.
@@ -158,72 +120,34 @@ def parse_table(table, type_label: str) -> List[Dict[str, str]]:
         # Clean backticks in each field
         for k in list(row.keys()):
             row[k] = normalize_text(row[k])
+        # Normalize MS shorthand back to the historical wording so subscribers
+        # don't see a spurious "Generally Available -> GA" diff for every model.
+        ls = row.get("Lifecycle status", "")
+        if ls == "GA":
+            row["Lifecycle status"] = "Generally Available"
+        # The schedule page uses an em-dash to mean "no replacement". The
+        # legacy snapshot used "" for the same thing; collapse so they match.
+        repl = row.get("Replacement model", "")
+        if repl in {"—", "-", "–"}:
+            row["Replacement model"] = ""
         # Attach our Type field
         row["Type"] = type_label
         rows.append(row)
     return rows
 
 
-def parse_current_models(html: str, only: Optional[str] = None) -> List[Dict[str, str]]:
+def parse_azure_openai_schedule(html: str) -> List[Dict[str, str]]:
     soup = BeautifulSoup(html, "html.parser")
-    h2 = find_current_models_section(soup)
-    if not h2:
-        raise RuntimeError("Could not locate 'Current models' section on the page.")
-
-    # Collect all nodes until the next H2 – this bounds our search to the Current models area
-    bounded_nodes = []
-    node = h2
-    while True:
-        node = node.find_next()
-        if not node:
-            break
-        if getattr(node, "name", None) == "h2":
-            break
-        bounded_nodes.append(node)
-
-    # Scan for tables by aria-label to be resilient to extra wrappers/divs
-    wanted_by_aria = {
-        "text generation": "Text",
-        "audio": "Audio",
-        "image and video": "Image and video",
-        "image & video": "Image and video",
-        "embedding": "Embedding",
-    }
-
-    rows: List[Dict[str, str]] = []
-    for n in bounded_nodes:
-        if getattr(n, "name", None) == "table":
-            aria = (n.get("aria-label") or "").strip().lower()
-            # normalize punctuation
-            aria = aria.replace("&", "and")
-            aria = re.sub(r"\s+", " ", aria)
-            if aria in wanted_by_aria:
-                type_label = wanted_by_aria[aria]
-                if only and not type_label.lower().startswith(only.lower()):
-                    continue
-                rows.extend(parse_table(n, type_label=type_label))
-
-    # Fallback: if nothing found via aria-label, try the heading-based walk (rare)
-    if not rows:
-        # Walk from H3 headings as before (handles unexpected DOMs)
-        node = h2
-        while node:
-            node = node.find_next(["h2", "h3", "table"])
-            if not node:
-                break
-            if node.name == "h2" and node is not h2:
-                break
-            if node.name == "h3":
-                raw_title = node.get_text(" ", strip=True)
-                type_label = canonical_type_from_title(raw_title)
-                if not type_label:
-                    continue
-                if only and not type_label.lower().startswith(only.lower()):
-                    continue
-                tbl = node.find_next("table")
-                if tbl:
-                    rows.extend(parse_table(tbl, type_label=type_label))
-    return rows
+    h3 = soup.find("h3", id="azure-openai")
+    if not h3:
+        raise RuntimeError(
+            "Could not locate '#azure-openai' section on the schedule page. "
+            "The page structure may have changed again."
+        )
+    table = h3.find_next("table")
+    if not table:
+        raise RuntimeError("Found 'Azure OpenAI' heading but no table follows it.")
+    return parse_table(table, type_label=TYPE_LABEL)
 
 
 def key_for_row(row: Dict[str, str]) -> Tuple[str, str, str]:
@@ -234,13 +158,25 @@ def key_for_row(row: Dict[str, str]) -> Tuple[str, str, str]:
         row.get("Version", ""),
     )
 
-def load_snapshot(path: str) -> Dict[str, Dict[str, str]]:
+def load_snapshot(path: str) -> Dict[Tuple[str, str, str], Dict[str, str]]:
     if not os.path.exists(path):
         return {}
     with open(path, "r", encoding="utf-8") as f:
         raw = json.load(f)
-    # Ensure keys are tuples joined by '||' for portability
-    return {tuple(k.split("||")): v for k, v in raw.items()}
+    snapshot: Dict[Tuple[str, str, str], Dict[str, str]] = {}
+    for k, v in raw.items():
+        parts = k.split("||")
+        if len(parts) != 3:
+            continue
+        type_label, model, version = parts
+        # Migrate legacy modality-based Type values to the new provider-based
+        # scheme so the first run after the MS page restructure doesn't flag
+        # every existing model as "new".
+        if type_label in LEGACY_TYPES:
+            type_label = TYPE_LABEL
+            v = {**v, "Type": TYPE_LABEL}
+        snapshot[(type_label, model, version)] = v
+    return snapshot
 
 def save_snapshot(snapshot: Dict[Tuple[str, str, str], Dict[str, str]], path: str) -> None:
     # Store keys as "Type||Model||Version" to be JSON-serializable
@@ -267,7 +203,9 @@ def compare_snapshots(old: Dict[Tuple[str, str, str], Dict[str, str]], new_rows:
             # Detect any field changes
             old_row = old[k]
             diffs = {}
-            for field in ["Lifecycle status", "Deprecation date", "Retirement date", "Replacement model"]:
+            # "Deprecation date" was dropped from the schedule page; ignore it
+            # so existing snapshot values don't show as "blanked out".
+            for field in ["Lifecycle status", "Retirement date", "Replacement model"]:
                 if old_row.get(field, "") != row.get(field, ""):
                     diffs[field] = (old_row.get(field, ""), row.get(field, ""))
             if diffs:
@@ -291,33 +229,22 @@ def write_csv(rows: List[Dict[str, str]], out_csv: str) -> None:
         for r in rows:
             w.writerow({k: r.get(k, "") for k in fields})
 
-def make_tabs_link(type_label: str) -> str:
-    tab = TAB_MAP.get(type_label, TAB_MAP.get(type_label.replace(" and video", ""), "text"))
-    return f"{MS_URL_BASE}?{urlencode({'tabs': tab})}"
+_ITEM_RE = re.compile(r"<item>.*?</item>", re.DOTALL)
 
 def read_existing_rss_items(rss_path: str) -> List[str]:
-    """Extract existing <item> elements from RSS file to preserve them when no changes occur."""
+    """Extract existing <item> elements from RSS file to preserve them across runs.
+
+    Uses a regex rather than an XML parser because:
+      - We control the writer's format, so <item> blocks never nest and never
+        contain a literal "</item>" in CDATA or attributes.
+      - The previous BeautifulSoup(..., "xml") implementation silently failed
+        when lxml wasn't installed, wiping the feed on every no-change run.
+    """
     if not os.path.exists(rss_path):
         return []
-    
-    try:
-        with open(rss_path, "r", encoding="utf-8") as f:
-            content = f.read()
-        
-        # Parse existing items using BeautifulSoup
-        soup = BeautifulSoup(content, "xml")
-        items = soup.find_all("item")
-        
-        # Convert back to XML strings
-        existing_items = []
-        for item in items:
-            # Preserve the original formatting
-            existing_items.append(str(item))
-        
-        return existing_items
-    except Exception:
-        # If parsing fails, return empty list to start fresh
-        return []
+    with open(rss_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return _ITEM_RE.findall(content)
 
 def write_rss(changes, out_rss: str) -> None:
     # Simple RSS 2.0
@@ -337,7 +264,7 @@ def write_rss(changes, out_rss: str) -> None:
         # Add new change items to the feed
         for ch in changes:
             type_label, model, version = ch["key"]
-            link = make_tabs_link(type_label)
+            link = AZURE_OPENAI_LINK
             title = ch["message"]
             desc_lines = []
             if ch["type"] == "new":
@@ -380,7 +307,6 @@ def escape_xml(s: str) -> str:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", choices=["text", "audio", "image", "embedding"], help="Scrape only a single type")
     ap.add_argument("--outdir", default="output", help="Output directory (default: ./output)")
     ap.add_argument("--datadir", default="data", help="Data directory for snapshots (default: ./data)")
     args = ap.parse_args()
@@ -397,11 +323,9 @@ def main():
     out_rss = os.path.join(out_dir, "rss.xml")
 
     html = fetch_page()
-    rows = parse_current_models(html, only=args.only)
+    rows = parse_azure_openai_schedule(html)
 
-    # Sort with Text first to "focus on Text models first", then by Model/Version
-    type_order = {"Text": 0, "Audio": 1, "Image and video": 2, "Embedding": 3}
-    rows.sort(key=lambda r: (type_order.get(r.get("Type"), 99), r.get("Model",""), r.get("Version","")))
+    rows.sort(key=lambda r: (r.get("Model", ""), r.get("Version", "")))
 
     # Write CSV
     write_csv(rows, out_csv)
