@@ -5,8 +5,80 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Thu, 30 Apr 2026 18:27:32 +0000</pubDate>
-<item>
+    <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-4o 2024-11-20: Replacement model: 'gpt-4.1' → 'gpt-5.1'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4o|2024-11-20|-84804490302091795</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Replacement model: 'gpt-4.1' → 'gpt-5.1'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-4o-transcribe-diarize 2025-10-15: Retirement date: '2027-04-16' → '2026-10-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4o-transcribe-diarize|2025-10-15|6188482027483398526</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2027-04-16' → '2026-10-15'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5-chat 2025-08-07: Retirement date: '2026-05-13' → '2026-06-09'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5-chat|2025-08-07|4814571033443640276</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-05-13' → '2026-06-09'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5-chat 2025-10-03: Retirement date: '2026-05-13' → '2026-06-09'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5-chat|2025-10-03|2947633614995205635</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-05-13' → '2026-06-09'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5.1-chat 2025-11-13: Retirement date: '2026-05-13' → '2026-06-09'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.1-chat|2025-11-13|3510294838199793510</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-05-13' → '2026-06-09'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5.2-chat 2025-12-11: Retirement date: '2026-05-13' → '2026-06-09'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.2-chat|2025-12-11|-2376828779975971991</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-05-13' → '2026-06-09'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5.3-chat 2026-03-03: Retirement date: '2026-06-03' → '2026-06-09'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.3-chat|2026-03-03|6299406625240350251</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-06-03' → '2026-06-09'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-audio-mini 2025-10-06: Retirement date: '2027-04-07' → '2026-07-23'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-audio-mini|2025-10-06|3120984978778746791</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2027-04-07' → '2026-07-23'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Retirement date: '2027-04-07' → '2026-07-23'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|-2869855660839232188</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2027-04-07' → '2026-07-23'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] tts 001: Retirement date: '2026-06-18' → '2026-12-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|tts|001|6939570198830602151</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-06-18' → '2026-12-15'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] tts-hd 001: Retirement date: '2026-06-18' → '2026-12-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|tts-hd|001|914153968459131113</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-06-18' → '2026-12-15'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] whisper 001: Retirement date: '2026-06-18' → '2026-12-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|whisper|001|-4843832638711455074</guid>
+      <pubDate>Fri, 01 May 2026 06:52:20 +0000</pubDate>
+      <description>Retirement date: '2026-06-18' → '2026-12-15'</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4.1 2025-04-14: Retirement date: '2027-10-14' → '2026-10-14'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4.1|2025-04-14|5684066562863392375</guid>
