@@ -67,7 +67,7 @@
     "Model": "gpt-4o-mini-transcribe",
     "Version": "2025-03-20",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-06-01",
+    "Retirement date": "2026-10-15",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -99,7 +99,7 @@
     "Model": "gpt-4o-transcribe",
     "Version": "2025-03-20",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-06-01",
+    "Retirement date": "2026-10-15",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -123,16 +123,16 @@
     "Model": "gpt-5-chat",
     "Version": "2025-08-07",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "gpt-5.3-chat",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5-chat||2025-10-03": {
     "Model": "gpt-5-chat",
     "Version": "2025-10-03",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "gpt-5.3-chat",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5-codex||2025-09-15": {
@@ -179,8 +179,8 @@
     "Model": "gpt-5.1-chat",
     "Version": "2025-11-13",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "gpt-5.3-chat",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5.1-codex||2025-11-13": {
@@ -219,16 +219,16 @@
     "Model": "gpt-5.2-chat",
     "Version": "2025-12-11",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "gpt-5.3-chat",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5.2-chat||2026-02-10": {
     "Model": "gpt-5.2-chat",
     "Version": "2026-02-10",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5.2-codex||2026-01-14": {
@@ -243,8 +243,8 @@
     "Model": "gpt-5.3-chat",
     "Version": "2026-03-03",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-09",
-    "Replacement model": "",
+    "Retirement date": "2026-06-22",
+    "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-5.3-codex||2026-02-24": {
@@ -327,6 +327,14 @@
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
+  "Azure OpenAI||gpt-chat-latest||2026-05-05": {
+    "Model": "gpt-chat-latest",
+    "Version": "2026-05-05",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-11-05",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
   "Azure OpenAI||gpt-image-1||2025-04-15": {
     "Model": "gpt-image-1",
     "Version": "2025-04-15",
@@ -375,6 +383,14 @@
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
+  "Azure OpenAI||gpt-realtime-2||2026-05-06": {
+    "Model": "gpt-realtime-2",
+    "Version": "2026-05-06",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-05-06",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
   "Azure OpenAI||gpt-realtime-mini||2025-10-06": {
     "Model": "gpt-realtime-mini",
     "Version": "2025-10-06",
@@ -396,6 +412,14 @@
     "Version": "2024-12-17",
     "Lifecycle status": "Deprecated",
     "Retirement date": "2026-07-15",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||o1-pro||2025-03-19": {
+    "Model": "o1-pro",
+    "Version": "2025-03-19",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-09-18",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -443,7 +467,15 @@
     "Model": "sora-2",
     "Version": "2025-10-06",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-03",
+    "Retirement date": "2026-06-23",
+    "Replacement model": "sora-2 (2025-12-08)",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||sora-2||2025-12-08": {
+    "Model": "sora-2",
+    "Version": "2025-12-08",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-09-15",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
