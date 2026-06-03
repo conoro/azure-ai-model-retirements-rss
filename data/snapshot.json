@@ -83,7 +83,7 @@
     "Model": "gpt-4o-mini-tts",
     "Version": "2025-03-20",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-01",
+    "Retirement date": "2026-10-15",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -339,7 +339,7 @@
     "Model": "gpt-image-1",
     "Version": "2025-04-15",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-05-15",
+    "Retirement date": "2026-10-23",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -467,7 +467,7 @@
     "Model": "sora-2",
     "Version": "2025-10-06",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-06-23",
+    "Retirement date": "2026-07-15",
     "Replacement model": "sora-2 (2025-12-08)",
     "Type": "Azure OpenAI"
   },
