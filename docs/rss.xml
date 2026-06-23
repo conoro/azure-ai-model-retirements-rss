@@ -5,8 +5,58 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Mon, 22 Jun 2026 19:03:52 +0000</pubDate>
-<item>
+    <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Azure OpenAI] codex-mini 2025-05-16: Lifecycle status: 'Generally Available' → 'Deprecated'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|codex-mini|2025-05-16|-4241520403169566464</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-4.1 2025-04-14: Lifecycle status: 'Generally Available' → 'Deprecated'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4.1|2025-04-14|8195963765735962812</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-4.1-mini 2025-04-14: Lifecycle status: 'Generally Available' → 'Deprecated'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4.1-mini|2025-04-14|-4416403290813637209</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-4.1-nano 2025-04-14: Lifecycle status: 'Generally Available' → 'Deprecated'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4.1-nano|2025-04-14|892630825013413530</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'</description>
+    </item>    <item>
+      <title>New model listed in Current models: [Azure OpenAI] gpt-4o 2024-08-06-ev3</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-4o|2024-08-06-ev3|-6270307873578103275</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>New row detected in Current models table.</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5-chat 2025-10-03: Lifecycle status: 'Preview' → 'Deprecated', Retirement date: '2026-06-29' → '2026-05-13'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5-chat|2025-10-03|-4171422757585728508</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Preview' → 'Deprecated'
+Retirement date: '2026-06-29' → '2026-05-13'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-5.2-chat 2025-12-11: Lifecycle status: 'Preview' → 'Deprecated', Retirement date: '2026-06-29' → '2026-05-13'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.2-chat|2025-12-11|5502697113379487810</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Preview' → 'Deprecated'
+Retirement date: '2026-06-29' → '2026-05-13'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o4-mini 2025-04-16: Lifecycle status: 'Generally Available' → 'Deprecated'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o4-mini|2025-04-16|-7518027982254984281</guid>
+      <pubDate>Tue, 23 Jun 2026 07:10:57 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4o-mini-tts 2025-03-20: Retirement date: '2026-06-01' → '2026-10-15'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4o-mini-tts|2025-03-20|-4162808753073951746</guid>
