@@ -130,7 +130,7 @@
   "Azure OpenAI||gpt-5-chat||2025-08-07": {
     "Model": "gpt-5-chat",
     "Version": "2025-08-07",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-06-29",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
@@ -138,7 +138,7 @@
   "Azure OpenAI||gpt-5-chat||2025-10-03": {
     "Model": "gpt-5-chat",
     "Version": "2025-10-03",
-    "Lifecycle status": "Deprecated",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-05-13",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
@@ -186,7 +186,7 @@
   "Azure OpenAI||gpt-5.1-chat||2025-11-13": {
     "Model": "gpt-5.1-chat",
     "Version": "2025-11-13",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-06-29",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
@@ -226,7 +226,7 @@
   "Azure OpenAI||gpt-5.2-chat||2025-12-11": {
     "Model": "gpt-5.2-chat",
     "Version": "2025-12-11",
-    "Lifecycle status": "Deprecated",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-05-13",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
@@ -234,7 +234,7 @@
   "Azure OpenAI||gpt-5.2-chat||2026-02-10": {
     "Model": "gpt-5.2-chat",
     "Version": "2026-02-10",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-06-29",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"
@@ -250,7 +250,7 @@
   "Azure OpenAI||gpt-5.3-chat||2026-03-03": {
     "Model": "gpt-5.3-chat",
     "Version": "2026-03-03",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-06-29",
     "Replacement model": "gpt-chat-latest",
     "Type": "Azure OpenAI"

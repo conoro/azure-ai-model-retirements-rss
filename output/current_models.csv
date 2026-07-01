@@ -15,22 +15,22 @@ Azure OpenAI,gpt-4o-mini-tts,2025-12-15,Generally Available,,2026-12-15,
 Azure OpenAI,gpt-4o-transcribe,2025-03-20,Generally Available,,2026-10-15,
 Azure OpenAI,gpt-4o-transcribe-diarize,2025-10-15,Generally Available,,2026-10-15,
 Azure OpenAI,gpt-5,2025-08-07,Generally Available,,2027-02-06,
-Azure OpenAI,gpt-5-chat,2025-08-07,Preview,,2026-06-29,gpt-chat-latest
-Azure OpenAI,gpt-5-chat,2025-10-03,Deprecated,,2026-05-13,gpt-chat-latest
+Azure OpenAI,gpt-5-chat,2025-08-07,Retired,,2026-06-29,gpt-chat-latest
+Azure OpenAI,gpt-5-chat,2025-10-03,Retired,,2026-05-13,gpt-chat-latest
 Azure OpenAI,gpt-5-codex,2025-09-15,Generally Available,,2027-03-17,
 Azure OpenAI,gpt-5-mini,2025-08-07,Generally Available,,2027-02-06,
 Azure OpenAI,gpt-5-nano,2025-08-07,Generally Available,,2027-02-06,
 Azure OpenAI,gpt-5-pro,2025-10-06,Generally Available,,2027-04-07,
 Azure OpenAI,gpt-5.1,2025-11-13,Generally Available,,2027-05-15,
-Azure OpenAI,gpt-5.1-chat,2025-11-13,Preview,,2026-06-29,gpt-chat-latest
+Azure OpenAI,gpt-5.1-chat,2025-11-13,Retired,,2026-06-29,gpt-chat-latest
 Azure OpenAI,gpt-5.1-codex,2025-11-13,Generally Available,,2027-05-15,
 Azure OpenAI,gpt-5.1-codex-max,2025-12-04,Generally Available,,2026-12-05,
 Azure OpenAI,gpt-5.1-codex-mini,2025-11-13,Generally Available,,2027-05-15,
 Azure OpenAI,gpt-5.2,2025-12-11,Generally Available,,2026-12-12,
-Azure OpenAI,gpt-5.2-chat,2025-12-11,Deprecated,,2026-05-13,gpt-chat-latest
-Azure OpenAI,gpt-5.2-chat,2026-02-10,Preview,,2026-06-29,gpt-chat-latest
+Azure OpenAI,gpt-5.2-chat,2025-12-11,Retired,,2026-05-13,gpt-chat-latest
+Azure OpenAI,gpt-5.2-chat,2026-02-10,Retired,,2026-06-29,gpt-chat-latest
 Azure OpenAI,gpt-5.2-codex,2026-01-14,Generally Available,,2027-01-14,
-Azure OpenAI,gpt-5.3-chat,2026-03-03,Preview,,2026-06-29,gpt-chat-latest
+Azure OpenAI,gpt-5.3-chat,2026-03-03,Retired,,2026-06-29,gpt-chat-latest
 Azure OpenAI,gpt-5.3-codex,2026-02-24,Generally Available,,2027-02-25,
 Azure OpenAI,gpt-5.4,2026-03-05,Generally Available,,2027-03-05,
 Azure OpenAI,gpt-5.4-mini,2026-03-17,Generally Available,,2027-03-18,
