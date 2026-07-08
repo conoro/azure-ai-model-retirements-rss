@@ -323,7 +323,7 @@
     "Model": "gpt-audio-mini",
     "Version": "2025-10-06",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-07-23",
+    "Retirement date": "2026-09-21",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -403,7 +403,7 @@
     "Model": "gpt-realtime-mini",
     "Version": "2025-10-06",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-07-23",
+    "Retirement date": "2026-09-21",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -419,7 +419,7 @@
     "Model": "o1",
     "Version": "2024-12-17",
     "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-07-15",
+    "Retirement date": "2026-09-16",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -451,7 +451,7 @@
     "Model": "o3-mini",
     "Version": "2025-01-31",
     "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-08-02",
+    "Retirement date": "2026-10-01",
     "Replacement model": "o4-mini",
     "Type": "Azure OpenAI"
   },
