@@ -5,38 +5,38 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
-    <item>
+    <pubDate>Thu, 09 Jul 2026 09:33:34 +0000</pubDate>
+<item>
       <title>Updated fields for [Azure OpenAI] gpt-chat-latest 2026-05-05: Retirement date: '2026-11-05' → '2026-08-05'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-05-05|1709029600997824511</guid>
       <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
       <description>Retirement date: '2026-11-05' → '2026-08-05'</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-chat-latest 2026-05-28</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-05-28|291699260987133118</guid>
       <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
       <description>New row detected in Current models table.</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-chat-latest 2026-06-24</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-06-24|-6625054184377625607</guid>
       <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
       <description>New row detected in Current models table.</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-realtime-2.1 2026-07-07</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-2.1|2026-07-07|4562540014395980487</guid>
       <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
       <description>New row detected in Current models table.</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-realtime-2.1-mini 2026-07-07</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-2.1-mini|2026-07-07|-5190515603559253726</guid>
       <pubDate>Wed, 08 Jul 2026 19:10:37 +0000</pubDate>
       <description>New row detected in Current models table.</description>
-    </item>    <item>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Retirement date: '2026-09-21' → '2026-07-23'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|-2218895590504950237</guid>
