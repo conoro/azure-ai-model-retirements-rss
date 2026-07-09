@@ -303,6 +303,30 @@
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
+  "Azure OpenAI||gpt-5.6-luna||2026-07-09": {
+    "Model": "gpt-5.6-luna",
+    "Version": "2026-07-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-07-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.6-sol||2026-07-09": {
+    "Model": "gpt-5.6-sol",
+    "Version": "2026-07-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-07-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-5.6-terra||2026-07-09": {
+    "Model": "gpt-5.6-terra",
+    "Version": "2026-07-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-07-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
   "Azure OpenAI||gpt-audio||2025-08-28": {
     "Model": "gpt-audio",
     "Version": "2025-08-28",

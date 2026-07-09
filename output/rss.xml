@@ -5,8 +5,26 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Thu, 09 Jul 2026 09:33:34 +0000</pubDate>
-<item>
+    <pubDate>Thu, 09 Jul 2026 19:25:02 +0000</pubDate>
+    <item>
+      <title>New model listed in Current models: [Azure OpenAI] gpt-5.6-luna 2026-07-09</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.6-luna|2026-07-09|-2123600895606797641</guid>
+      <pubDate>Thu, 09 Jul 2026 19:25:02 +0000</pubDate>
+      <description>New row detected in Current models table.</description>
+    </item>    <item>
+      <title>New model listed in Current models: [Azure OpenAI] gpt-5.6-sol 2026-07-09</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.6-sol|2026-07-09|-1987201575320783807</guid>
+      <pubDate>Thu, 09 Jul 2026 19:25:02 +0000</pubDate>
+      <description>New row detected in Current models table.</description>
+    </item>    <item>
+      <title>New model listed in Current models: [Azure OpenAI] gpt-5.6-terra 2026-07-09</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-5.6-terra|2026-07-09|-1853252070446000284</guid>
+      <pubDate>Thu, 09 Jul 2026 19:25:02 +0000</pubDate>
+      <description>New row detected in Current models table.</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-chat-latest 2026-05-05: Retirement date: '2026-11-05' → '2026-08-05'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-05-05|1709029600997824511</guid>
