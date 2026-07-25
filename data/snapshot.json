@@ -47,14 +47,6 @@
     "Replacement model": "gpt-5.1",
     "Type": "Azure OpenAI"
   },
-  "Azure OpenAI||gpt-4o||2024-08-06-ev3": {
-    "Model": "gpt-4o",
-    "Version": "2024-08-06-ev3",
-    "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-03-31",
-    "Replacement model": "gpt-5.1",
-    "Type": "Azure OpenAI"
-  },
   "Azure OpenAI||gpt-4o||2024-11-20": {
     "Model": "gpt-4o",
     "Version": "2024-11-20",
@@ -458,7 +450,7 @@
   "Azure OpenAI||gpt-realtime-mini||2025-10-06": {
     "Model": "gpt-realtime-mini",
     "Version": "2025-10-06",
-    "Lifecycle status": "Generally Available",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-07-23",
     "Replacement model": "",
     "Type": "Azure OpenAI"
@@ -530,7 +522,7 @@
   "Azure OpenAI||sora-2||2025-10-06": {
     "Model": "sora-2",
     "Version": "2025-10-06",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Retired",
     "Retirement date": "2026-07-15",
     "Replacement model": "sora-2 (2025-12-08)",
     "Type": "Azure OpenAI"
