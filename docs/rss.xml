@@ -5,8 +5,21 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Mon, 27 Jul 2026 09:34:32 +0000</pubDate>
-<item>
+    <pubDate>Mon, 27 Jul 2026 19:14:51 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Lifecycle status: 'Retired' → 'Generally Available', Retirement date: '2026-07-23' → '2026-09-21'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|-8971692823463717763</guid>
+      <pubDate>Mon, 27 Jul 2026 19:14:51 +0000</pubDate>
+      <description>Lifecycle status: 'Retired' → 'Generally Available'
+Retirement date: '2026-07-23' → '2026-09-21'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] sora-2 2025-10-06: Lifecycle status: 'Retired' → 'Preview'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|sora-2|2025-10-06|-8175522728192200853</guid>
+      <pubDate>Mon, 27 Jul 2026 19:14:51 +0000</pubDate>
+      <description>Lifecycle status: 'Retired' → 'Preview'</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Lifecycle status: 'Generally Available' → 'Retired'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|4419533512962508242</guid>
