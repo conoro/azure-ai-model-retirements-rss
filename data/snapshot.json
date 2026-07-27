@@ -450,8 +450,8 @@
   "Azure OpenAI||gpt-realtime-mini||2025-10-06": {
     "Model": "gpt-realtime-mini",
     "Version": "2025-10-06",
-    "Lifecycle status": "Retired",
-    "Retirement date": "2026-07-23",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2026-09-21",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -522,7 +522,7 @@
   "Azure OpenAI||sora-2||2025-10-06": {
     "Model": "sora-2",
     "Version": "2025-10-06",
-    "Lifecycle status": "Retired",
+    "Lifecycle status": "Preview",
     "Retirement date": "2026-07-15",
     "Replacement model": "sora-2 (2025-12-08)",
     "Type": "Azure OpenAI"
