@@ -5,7 +5,7 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Wed, 29 Jul 2026 19:00:18 +0000</pubDate>
+    <pubDate>Thu, 30 Jul 2026 08:09:37 +0000</pubDate>
 <item>
       <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Lifecycle status: 'Retired' → 'Generally Available', Retirement date: '2026-07-23' → '2026-09-21'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
