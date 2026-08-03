@@ -451,7 +451,7 @@
     "Model": "gpt-realtime-mini",
     "Version": "2025-10-06",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2027-04-06",
+    "Retirement date": "2026-09-21",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -459,7 +459,7 @@
     "Model": "gpt-realtime-mini",
     "Version": "2025-12-15",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2027-06-15",
+    "Retirement date": "2026-12-15",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
