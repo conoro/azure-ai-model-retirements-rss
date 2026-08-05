@@ -5,14 +5,26 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Tue, 04 Aug 2026 19:19:32 +0000</pubDate>
+    <pubDate>Wed, 05 Aug 2026 08:21:23 +0000</pubDate>
     <item>
+      <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Retirement date: '2026-09-21' → '2027-04-06'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|4361887428461643150</guid>
+      <pubDate>Wed, 05 Aug 2026 08:21:23 +0000</pubDate>
+      <description>Retirement date: '2026-09-21' → '2027-04-06'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-12-15: Retirement date: '2026-12-15' → '2027-06-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-12-15|-4001080704102263615</guid>
+      <pubDate>Wed, 05 Aug 2026 08:21:23 +0000</pubDate>
+      <description>Retirement date: '2026-12-15' → '2027-06-15'</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-10-06: Retirement date: '2026-09-21' → '2027-04-06'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-10-06|-2643076495466805401</guid>
       <pubDate>Tue, 04 Aug 2026 19:19:32 +0000</pubDate>
       <description>Retirement date: '2026-09-21' → '2027-04-06'</description>
-    </item>    <item>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-realtime-mini 2025-12-15: Retirement date: '2026-12-15' → '2027-06-15'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-realtime-mini|2025-12-15|-3916163043719319912</guid>
