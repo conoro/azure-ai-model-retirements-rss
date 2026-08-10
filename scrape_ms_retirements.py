@@ -158,6 +158,56 @@ def key_for_row(row: Dict[str, str]) -> Tuple[str, str, str]:
         row.get("Version", ""),
     )
 
+# Fields we track for change detection. Kept in one place so dedup and compare
+# stay in sync.
+DIFF_FIELDS = ["Lifecycle status", "Retirement date", "Replacement model"]
+
+def merge_duplicate_rows(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    """Collapse rows that share (Type, Model, Version) into one row.
+
+    As of ~2026-08 Microsoft's schedule page lists some model versions on more
+    than one row (one per deployment type) with DIFFERENT retirement dates, e.g.
+    gpt-realtime-mini 2025-12-15 appears as both 2027-06-15 and 2026-12-15.
+
+    Our snapshot is keyed on (Type, Model, Version), so two rows with the same
+    key but conflicting values make the comparison non-convergent: one row is
+    seen as a change while the other rewrites the snapshot back to the old value
+    on the same run (``new_snapshot[k] = row`` keeps whichever row is processed
+    last). The result is the identical diff being re-emitted on every run
+    forever. Merging distinct values per field (sorted, ' / '-joined) collapses
+    each key to a single deterministic row, so the snapshot can stabilise while
+    still preserving every deployment-type date.
+    """
+    order: List[Tuple[str, str, str]] = []
+    grouped: Dict[Tuple[str, str, str], List[Dict[str, str]]] = {}
+    for row in rows:
+        k = key_for_row(row)
+        if k not in grouped:
+            grouped[k] = []
+            order.append(k)
+        grouped[k].append(row)
+
+    merged: List[Dict[str, str]] = []
+    collapsed = 0
+    for k in order:
+        group = grouped[k]
+        if len(group) == 1:
+            merged.append(group[0])
+            continue
+        collapsed += len(group) - 1
+        base = dict(group[0])
+        for field in DIFF_FIELDS:
+            seen: List[str] = []
+            for r in group:
+                v = r.get(field, "")
+                if v and v not in seen:
+                    seen.append(v)
+            base[field] = " / ".join(sorted(seen))
+        merged.append(base)
+    if collapsed:
+        print(f"Merged {collapsed} duplicate row(s) sharing (Type, Model, Version).")
+    return merged
+
 def load_snapshot(path: str) -> Dict[Tuple[str, str, str], Dict[str, str]]:
     if not os.path.exists(path):
         return {}
@@ -205,7 +255,7 @@ def compare_snapshots(old: Dict[Tuple[str, str, str], Dict[str, str]], new_rows:
             diffs = {}
             # "Deprecation date" was dropped from the schedule page; ignore it
             # so existing snapshot values don't show as "blanked out".
-            for field in ["Lifecycle status", "Retirement date", "Replacement model"]:
+            for field in DIFF_FIELDS:
                 if old_row.get(field, "") != row.get(field, ""):
                     diffs[field] = (old_row.get(field, ""), row.get(field, ""))
             if diffs:
@@ -275,7 +325,20 @@ def write_rss(changes, out_rss: str) -> None:
             elif ch["type"] == "baseline":
                 desc_lines.append("Initial baseline snapshot created.")
             description = "\n".join(desc_lines)
-            guid = f"{type_label}|{model}|{version}|{hash(model+version+str(now.timestamp()))}"
+            # Deterministic GUID derived from the CHANGE CONTENT, not the wall
+            # clock. The previous form embedded now.timestamp() (and a
+            # per-process-salted hash()), so an identical change re-detected on a
+            # later run got a brand-new GUID and RSS consumers (e.g. Slack)
+            # re-posted it as new. Keying on the actual field transitions means
+            # the same change always yields the same GUID and is de-duplicated
+            # downstream.
+            if ch["type"] == "update":
+                change_sig = ";".join(
+                    f"{f}:{a}=>{b}" for f, (a, b) in sorted(ch.get("diffs", {}).items())
+                )
+            else:
+                change_sig = ch["type"]
+            guid = f"{type_label}|{model}|{version}|{change_sig}"
             items_xml.append(f"""    <item>
       <title>{escape_xml(title)}</title>
       <link>{link}</link>
@@ -326,6 +389,11 @@ def main():
     rows = parse_azure_openai_schedule(html)
 
     rows.sort(key=lambda r: (r.get("Model", ""), r.get("Version", "")))
+
+    # Collapse duplicate (Type, Model, Version) rows that Microsoft now emits
+    # per deployment type; without this the snapshot never converges and the
+    # same diff is re-published on every run.
+    rows = merge_duplicate_rows(rows)
 
     # Write CSV
     write_csv(rows, out_csv)
