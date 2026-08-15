@@ -371,7 +371,15 @@
     "Model": "gpt-chat-latest",
     "Version": "2026-06-24",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-08-28",
+    "Retirement date": "2026-09-24",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-chat-latest||2026-08-06": {
+    "Model": "gpt-chat-latest",
+    "Version": "2026-08-06",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2026-12-02",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
