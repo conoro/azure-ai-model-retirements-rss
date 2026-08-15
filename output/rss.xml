@@ -5,14 +5,14 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Sat, 15 Aug 2026 06:22:17 +0000</pubDate>
-    <item>
+    <pubDate>Sat, 15 Aug 2026 18:16:11 +0000</pubDate>
+<item>
       <title>Updated fields for [Azure OpenAI] gpt-chat-latest 2026-06-24: Retirement date: '2026-08-28' → '2026-09-24'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-06-24|Retirement date:2026-08-28=&gt;2026-09-24</guid>
       <pubDate>Sat, 15 Aug 2026 06:22:17 +0000</pubDate>
       <description>Retirement date: '2026-08-28' → '2026-09-24'</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-chat-latest 2026-08-06</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-chat-latest|2026-08-06|new</guid>
