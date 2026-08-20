@@ -5,27 +5,27 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Thu, 20 Aug 2026 06:30:33 +0000</pubDate>
-    <item>
+    <pubDate>Thu, 20 Aug 2026 18:26:07 +0000</pubDate>
+<item>
       <title>Updated fields for [Azure OpenAI] gpt-4.1 2025-04-14: Lifecycle status: 'Deprecated' → 'Legacy'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4.1|2025-04-14|Lifecycle status:Deprecated=&gt;Legacy</guid>
       <pubDate>Thu, 20 Aug 2026 06:30:33 +0000</pubDate>
       <description>Lifecycle status: 'Deprecated' → 'Legacy'</description>
-    </item>    <item>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4.1-mini 2025-04-14: Lifecycle status: 'Deprecated' → 'Legacy'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4.1-mini|2025-04-14|Lifecycle status:Deprecated=&gt;Legacy</guid>
       <pubDate>Thu, 20 Aug 2026 06:30:33 +0000</pubDate>
       <description>Lifecycle status: 'Deprecated' → 'Legacy'</description>
-    </item>    <item>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4.1-nano 2025-04-14: Lifecycle status: 'Deprecated' → 'Legacy', Retirement date: '2026-10-14' → '2027-04-14'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4.1-nano|2025-04-14|Lifecycle status:Deprecated=&gt;Legacy;Retirement date:2026-10-14=&gt;2027-04-14</guid>
       <pubDate>Thu, 20 Aug 2026 06:30:33 +0000</pubDate>
       <description>Lifecycle status: 'Deprecated' → 'Legacy'
 Retirement date: '2026-10-14' → '2027-04-14'</description>
-    </item>    <item>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4o 2024-11-20: Lifecycle status: 'Deprecated' → 'Legacy'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4o|2024-11-20|Lifecycle status:Deprecated=&gt;Legacy</guid>
