@@ -10,7 +10,7 @@
   "Azure OpenAI||gpt-4.1||2025-04-14": {
     "Model": "gpt-4.1",
     "Version": "2025-04-14",
-    "Lifecycle status": "Deprecated",
+    "Lifecycle status": "Legacy",
     "Retirement date": "2027-04-14",
     "Replacement model": "",
     "Type": "Azure OpenAI"
@@ -18,7 +18,7 @@
   "Azure OpenAI||gpt-4.1-mini||2025-04-14": {
     "Model": "gpt-4.1-mini",
     "Version": "2025-04-14",
-    "Lifecycle status": "Deprecated",
+    "Lifecycle status": "Legacy",
     "Retirement date": "2027-04-14",
     "Replacement model": "",
     "Type": "Azure OpenAI"
@@ -26,8 +26,8 @@
   "Azure OpenAI||gpt-4.1-nano||2025-04-14": {
     "Model": "gpt-4.1-nano",
     "Version": "2025-04-14",
-    "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-10-14",
+    "Lifecycle status": "Legacy",
+    "Retirement date": "2027-04-14",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -50,7 +50,7 @@
   "Azure OpenAI||gpt-4o||2024-11-20": {
     "Model": "gpt-4o",
     "Version": "2024-11-20",
-    "Lifecycle status": "Deprecated",
+    "Lifecycle status": "Legacy",
     "Retirement date": "2027-04-14",
     "Replacement model": "gpt-5.1",
     "Type": "Azure OpenAI"
