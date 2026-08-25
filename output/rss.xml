@@ -5,8 +5,14 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Mon, 24 Aug 2026 18:27:38 +0000</pubDate>
-<item>
+    <pubDate>Tue, 25 Aug 2026 06:31:26 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Azure OpenAI] sora-2 2025-12-08: Retirement date: '2026-09-15' → '2026-10-15'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|sora-2|2025-12-08|Retirement date:2026-09-15=&gt;2026-10-15</guid>
+      <pubDate>Tue, 25 Aug 2026 06:31:26 +0000</pubDate>
+      <description>Retirement date: '2026-09-15' → '2026-10-15'</description>
+    </item><item>
       <title>Updated fields for [Azure OpenAI] gpt-4.1 2025-04-14: Lifecycle status: 'Deprecated' → 'Legacy'</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-4.1|2025-04-14|Lifecycle status:Deprecated=&gt;Legacy</guid>

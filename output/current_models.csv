@@ -66,7 +66,7 @@ Azure OpenAI,o3-mini,2025-01-31,Deprecated,,2026-10-01,o4-mini
 Azure OpenAI,o3-pro,2025-06-10,Generally Available,,2026-12-17,
 Azure OpenAI,o4-mini,2025-04-16,Deprecated,,2026-10-16,
 Azure OpenAI,sora-2,2025-10-06,Preview,,2026-07-15,sora-2 (2025-12-08)
-Azure OpenAI,sora-2,2025-12-08,Preview,,2026-09-15,
+Azure OpenAI,sora-2,2025-12-08,Preview,,2026-10-15,
 Azure OpenAI,text-embedding-3-large,1,Generally Available,,2028-02-09,
 Azure OpenAI,text-embedding-3-small,1,Generally Available,,2028-02-09,
 Azure OpenAI,text-embedding-ada-002,1,Generally Available,,2028-02-09,
