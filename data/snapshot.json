@@ -415,6 +415,22 @@
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
+  "Azure OpenAI||gpt-image-2.5-flare||2026-09-09": {
+    "Model": "gpt-image-2.5-flare",
+    "Version": "2026-09-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-09-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-image-2.5-sunburst||2026-09-09": {
+    "Model": "gpt-image-2.5-sunburst",
+    "Version": "2026-09-09",
+    "Lifecycle status": "Generally Available",
+    "Retirement date": "2027-09-09",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
   "Azure OpenAI||gpt-realtime||2025-08-28": {
     "Model": "gpt-realtime",
     "Version": "2025-08-28",
