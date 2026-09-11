@@ -5,14 +5,14 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Thu, 10 Sep 2026 20:15:45 +0000</pubDate>
-    <item>
+    <pubDate>Fri, 11 Sep 2026 10:19:13 +0000</pubDate>
+<item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-image-2.5-flare 2026-09-09</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-image-2.5-flare|2026-09-09|new</guid>
       <pubDate>Thu, 10 Sep 2026 20:15:45 +0000</pubDate>
       <description>New row detected in Current models table.</description>
-    </item>    <item>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-image-2.5-sunburst 2026-09-09</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-image-2.5-sunburst|2026-09-09|new</guid>
