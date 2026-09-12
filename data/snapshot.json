@@ -491,56 +491,56 @@
     "Model": "o1",
     "Version": "2024-12-17",
     "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-10-21",
+    "Retirement date": "2026-11-19",
     "Replacement model": "gpt-5.6-sol",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o1-pro||2025-03-19": {
     "Model": "o1-pro",
     "Version": "2025-03-19",
-    "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-10-21",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-11-19",
     "Replacement model": "gpt-5.6-sol",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o3||2025-04-16": {
     "Model": "o3",
     "Version": "2025-04-16",
-    "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-10-21",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-11-19",
     "Replacement model": "gpt-5.6-sol",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o3-deep-research||2025-06-26": {
     "Model": "o3-deep-research",
     "Version": "2025-06-26",
-    "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-12-26",
-    "Replacement model": "",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-11-19",
+    "Replacement model": "gpt-5.6-sol",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o3-mini||2025-01-31": {
     "Model": "o3-mini",
     "Version": "2025-01-31",
     "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-10-01",
-    "Replacement model": "o4-mini",
+    "Retirement date": "2026-11-19",
+    "Replacement model": "gpt-5.6-terra",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o3-pro||2025-06-10": {
     "Model": "o3-pro",
     "Version": "2025-06-10",
-    "Lifecycle status": "Generally Available",
-    "Retirement date": "2026-12-17",
-    "Replacement model": "",
+    "Lifecycle status": "Deprecated",
+    "Retirement date": "2026-11-19",
+    "Replacement model": "gpt-5.6-sol",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||o4-mini||2025-04-16": {
     "Model": "o4-mini",
     "Version": "2025-04-16",
     "Lifecycle status": "Deprecated",
-    "Retirement date": "2026-10-16",
-    "Replacement model": "",
+    "Retirement date": "2026-11-19",
+    "Replacement model": "gpt-5.6-terra",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||sora-2||2025-10-06": {

@@ -5,8 +5,58 @@
     <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</link>
     <description>RSS feed of changes (new rows or field updates) detected in the 'Current models' tables.</description>
     <language>en-us</language>
-    <pubDate>Fri, 11 Sep 2026 20:15:29 +0000</pubDate>
-<item>
+    <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+    <item>
+      <title>Updated fields for [Azure OpenAI] o1 2024-12-17: Retirement date: '2026-10-21' → '2026-11-19'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o1|2024-12-17|Retirement date:2026-10-21=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Retirement date: '2026-10-21' → '2026-11-19'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o1-pro 2025-03-19: Lifecycle status: 'Generally Available' → 'Deprecated', Retirement date: '2026-10-21' → '2026-11-19'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o1-pro|2025-03-19|Lifecycle status:Generally Available=&gt;Deprecated;Retirement date:2026-10-21=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'
+Retirement date: '2026-10-21' → '2026-11-19'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o3 2025-04-16: Lifecycle status: 'Generally Available' → 'Deprecated', Retirement date: '2026-10-21' → '2026-11-19'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o3|2025-04-16|Lifecycle status:Generally Available=&gt;Deprecated;Retirement date:2026-10-21=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'
+Retirement date: '2026-10-21' → '2026-11-19'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o3-deep-research 2025-06-26: Lifecycle status: 'Generally Available' → 'Deprecated', Retirement date: '2026-12-26' → '2026-11-19', Replacement model: '' → 'gpt-5.6-sol'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o3-deep-research|2025-06-26|Lifecycle status:Generally Available=&gt;Deprecated;Replacement model:=&gt;gpt-5.6-sol;Retirement date:2026-12-26=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'
+Retirement date: '2026-12-26' → '2026-11-19'
+Replacement model: '' → 'gpt-5.6-sol'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o3-mini 2025-01-31: Retirement date: '2026-10-01' → '2026-11-19', Replacement model: 'o4-mini' → 'gpt-5.6-terra'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o3-mini|2025-01-31|Replacement model:o4-mini=&gt;gpt-5.6-terra;Retirement date:2026-10-01=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Retirement date: '2026-10-01' → '2026-11-19'
+Replacement model: 'o4-mini' → 'gpt-5.6-terra'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o3-pro 2025-06-10: Lifecycle status: 'Generally Available' → 'Deprecated', Retirement date: '2026-12-17' → '2026-11-19', Replacement model: '' → 'gpt-5.6-sol'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o3-pro|2025-06-10|Lifecycle status:Generally Available=&gt;Deprecated;Replacement model:=&gt;gpt-5.6-sol;Retirement date:2026-12-17=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Lifecycle status: 'Generally Available' → 'Deprecated'
+Retirement date: '2026-12-17' → '2026-11-19'
+Replacement model: '' → 'gpt-5.6-sol'</description>
+    </item>    <item>
+      <title>Updated fields for [Azure OpenAI] o4-mini 2025-04-16: Retirement date: '2026-10-16' → '2026-11-19', Replacement model: '' → 'gpt-5.6-terra'</title>
+      <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
+      <guid isPermaLink="false">Azure OpenAI|o4-mini|2025-04-16|Replacement model:=&gt;gpt-5.6-terra;Retirement date:2026-10-16=&gt;2026-11-19</guid>
+      <pubDate>Sat, 12 Sep 2026 09:51:17 +0000</pubDate>
+      <description>Retirement date: '2026-10-16' → '2026-11-19'
+Replacement model: '' → 'gpt-5.6-terra'</description>
+    </item><item>
       <title>New model listed in Current models: [Azure OpenAI] gpt-image-2.5-flare 2026-09-09</title>
       <link>https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule#azure-openai</link>
       <guid isPermaLink="false">Azure OpenAI|gpt-image-2.5-flare|2026-09-09|new</guid>
