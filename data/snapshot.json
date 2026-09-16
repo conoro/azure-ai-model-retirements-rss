@@ -27,7 +27,7 @@
     "Model": "gpt-4.1-nano",
     "Version": "2025-04-14",
     "Lifecycle status": "Legacy",
-    "Retirement date": "2027-04-14",
+    "Retirement date": "2026-10-14",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -403,7 +403,7 @@
     "Model": "gpt-image-1.5",
     "Version": "2025-12-16",
     "Lifecycle status": "Generally Available",
-    "Retirement date": "2027-06-16",
+    "Retirement date": "2026-12-16",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
