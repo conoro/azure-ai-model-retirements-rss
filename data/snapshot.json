@@ -458,7 +458,7 @@
   "Azure OpenAI||gpt-realtime-2.1||2026-07-07": {
     "Model": "gpt-realtime-2.1",
     "Version": "2026-07-07",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Generally Available",
     "Retirement date": "2027-06-25",
     "Replacement model": "",
     "Type": "Azure OpenAI"
@@ -466,7 +466,7 @@
   "Azure OpenAI||gpt-realtime-2.1-mini||2026-07-07": {
     "Model": "gpt-realtime-2.1-mini",
     "Version": "2026-07-07",
-    "Lifecycle status": "Preview",
+    "Lifecycle status": "Generally Available",
     "Retirement date": "2027-06-25",
     "Replacement model": "",
     "Type": "Azure OpenAI"
