@@ -451,8 +451,8 @@
     "Model": "gpt-realtime-2",
     "Version": "2026-05-06",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-08-31",
-    "Replacement model": "",
+    "Retirement date": "—",
+    "Replacement model": "gpt-realtime-2.1",
     "Type": "Azure OpenAI"
   },
   "Azure OpenAI||gpt-realtime-2.1||2026-07-07": {
