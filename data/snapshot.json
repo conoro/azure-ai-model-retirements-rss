@@ -355,7 +355,7 @@
     "Model": "gpt-chat-latest",
     "Version": "2026-05-05",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-08-05",
+    "Retirement date": "2026-11-17",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -363,7 +363,7 @@
     "Model": "gpt-chat-latest",
     "Version": "2026-05-28",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-08-28",
+    "Retirement date": "2026-12-08",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -371,7 +371,7 @@
     "Model": "gpt-chat-latest",
     "Version": "2026-06-24",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-09-24",
+    "Retirement date": "2026-11-17",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
@@ -379,7 +379,15 @@
     "Model": "gpt-chat-latest",
     "Version": "2026-08-06",
     "Lifecycle status": "Preview",
-    "Retirement date": "2026-12-02",
+    "Retirement date": "2027-01-12",
+    "Replacement model": "",
+    "Type": "Azure OpenAI"
+  },
+  "Azure OpenAI||gpt-chat-latest||2026-10-07": {
+    "Model": "gpt-chat-latest",
+    "Version": "2026-10-07",
+    "Lifecycle status": "Preview",
+    "Retirement date": "2027-05-18",
     "Replacement model": "",
     "Type": "Azure OpenAI"
   },
