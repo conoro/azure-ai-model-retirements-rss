@@ -50,7 +50,7 @@ Azure OpenAI,gpt-chat-latest,2026-08-06,Preview,,2027-01-12,
 Azure OpenAI,gpt-chat-latest,2026-10-07,Preview,,2027-05-18,
 Azure OpenAI,gpt-image-1,2025-04-15,Preview,,2026-10-23,
 Azure OpenAI,gpt-image-1-mini,2025-10-06,Generally Available,,2027-04-07,
-Azure OpenAI,gpt-image-1.5,2025-12-16,Generally Available,,2026-12-16,
+Azure OpenAI,gpt-image-1.5,2025-12-16,Generally Available,,2027-06-16,
 Azure OpenAI,gpt-image-2,2026-04-21,Generally Available,,2027-10-21,
 Azure OpenAI,gpt-image-2.5-flare,2026-09-09,Generally Available,,2027-09-09,
 Azure OpenAI,gpt-image-2.5-sunburst,2026-09-09,Generally Available,,2027-09-09,
@@ -61,13 +61,13 @@ Azure OpenAI,gpt-realtime-2.1,2026-07-07,Generally Available,,2027-06-25,
 Azure OpenAI,gpt-realtime-2.1-mini,2026-07-07,Generally Available,,2027-06-25,
 Azure OpenAI,gpt-realtime-mini,2025-10-06,Generally Available,,2026-09-21 / 2027-04-06,
 Azure OpenAI,gpt-realtime-mini,2025-12-15,Generally Available,,2026-12-15 / 2027-06-15,
-Azure OpenAI,o1,2024-12-17,Deprecated,,2026-11-19,gpt-5.6-sol
-Azure OpenAI,o1-pro,2025-03-19,Deprecated,,2026-11-19,gpt-5.6-sol
-Azure OpenAI,o3,2025-04-16,Deprecated,,2026-11-19,gpt-5.6-sol
-Azure OpenAI,o3-deep-research,2025-06-26,Deprecated,,2026-11-19,gpt-5.6-sol
-Azure OpenAI,o3-mini,2025-01-31,Deprecated,,2026-11-19,gpt-5.6-terra
-Azure OpenAI,o3-pro,2025-06-10,Deprecated,,2026-11-19,gpt-5.6-sol
-Azure OpenAI,o4-mini,2025-04-16,Deprecated,,2026-11-19,gpt-5.6-terra
+Azure OpenAI,o1,2024-12-17,Deprecated,,2026-11-19,gpt-5.6-sol 4
+Azure OpenAI,o1-pro,2025-03-19,Deprecated,,2026-11-19,gpt-5.6-sol 4
+Azure OpenAI,o3,2025-04-16,Deprecated,,2026-11-19,gpt-5.6-sol 4
+Azure OpenAI,o3-deep-research,2025-06-26,Deprecated,,2026-11-19,gpt-5.6-sol 4
+Azure OpenAI,o3-mini,2025-01-31,Deprecated,,2026-11-19,gpt-5.6-terra 4
+Azure OpenAI,o3-pro,2025-06-10,Deprecated,,2026-11-19,gpt-5.6-sol 4
+Azure OpenAI,o4-mini,2025-04-16,Deprecated,,2026-11-19,gpt-5.6-terra 4
 Azure OpenAI,sora-2,2025-10-06,Preview,,2026-07-15,sora-2 (2025-12-08)
 Azure OpenAI,sora-2,2025-12-08,Preview,,2026-10-15,
 Azure OpenAI,text-embedding-3-large,1,Generally Available,,2028-02-09,
